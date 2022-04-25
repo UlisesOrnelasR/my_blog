@@ -1,12 +1,45 @@
 +++
-title = "What is Hugo"
-date = "2019-07-01"
+title = "Introduction"
+date = "2019-08-03"
 +++
 
-Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
+Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don't need to be a Go guru to contribute to the project's development.
+
 <!--more-->
-Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.
 
-Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.
+## Assumptions
 
-We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.
+This contribution guide takes a step-by-step approach in hopes of helping newcomers. Therefore, we only assume the following:
+
+* You are new to Git or open-source projects in general
+* You are a fan of Hugo and enthusiastic about contributing to the project
+
+## Install Go
+
+The installation of Go should take only a few minutes. You have more than one option to get Go up and running on your machine.
+
+If you are having trouble following the installation guides for Go, check out Go Bootcamp, which contains setups for every platform  or reach out to the Hugo community in the Hugo Discussion Forums.
+
+### Install Go From Source
+
+Download the latest stable version of Go and follow the official Go installation guide.
+
+Once you're finished installing Go, let's confirm everything is working correctly. Open a terminal---or command line under Windows--and type the following:
+
+```
+go version
+```
+
+You should see something similar to the following written to the console. Note that the version here reflects the most recent version of Go as of the last update for this page:
+
+```
+go version go1.12 darwin/amd64
+```
+
+Next, make sure that you set up your `GOPATH` as described in the installation guide.
+
+You can print the `GOPATH` with `echo $GOPATH`. You should see a non-empty string containing a valid path to your Go workspace; for example:
+
+```
+/Users/<yourusername>/Code/go
+```
