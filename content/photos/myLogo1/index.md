@@ -1,6 +1,6 @@
 +++
 image = "Logo.png"
-date = "2020-01-07"
+date = "2022-04-25"
 title = "Panaji, India"
 type = "gallery"
 +++
