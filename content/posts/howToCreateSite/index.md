@@ -158,3 +158,113 @@ git submodule add 'tu ruta que guardaste aqui va' themes/minimal
 Después de ejecutar el comando obtendremos el **contenido del repo que hicimos fork**, lo tendremos como **theme** de nuestro proyecto
 
 ![p3module](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p3submodule.JPG?raw=true)
+
+Abrimos VScode y copiamos esto en el archivo **config.toml**
+
+```texto
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "Minimal"
+theme = "minimal"
+disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Calin Tataru"
+    description = "Personal blog theme powered by Hugo"
+    githubUsername = "#"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 3
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+[[menu.icon]]
+    url = "mailto:me@example.com"
+    name = "fas fa-envelope"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/username/"
+    name = "fab fa-github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/username/"
+    name = "fab fa-twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/username/"
+    name = "fab fa-linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/username/"
+    name = "fab fa-stack-overflow"
+    weight = 5
+
+```
+
+Eliminamos la carpeta **content** del directorio raíz y pegamos la carpeta **content** que se encuentra en themes/minimal/exampleSite
+
+![p3copy](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p3copy.JPG?raw=true)
+
+Abrimos la terminal y ejecutamos el siguiente comando:
+
+```texto
+hugo server
+```
+
+Esperamos a que esté listo... Y abrimos en el navegador la dirección que nos da, en mi caso **http://localhost:1313/**
+
+![p3server](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p3server.JPG?raw=true)
+
+¡¡Listo!! ya poder observar nuestro webSite
+
+![p3navegador](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p3navegador.JPG?raw=true)
+
+Puedes modificar lo que tú quieras.
+
+Para detener el servidor ⇾ **Ctrl + C**
+
+Para volverlo a iniciar ejecuta en la terminal
+
+```texto
+hugo server
+```
+
+Por ejemplo para modificar el color nos dirigimos al archivo **config.toml** y cambiamos "red" por el que queramos, yo quiero azul
+entonces escribo "blue".
+
+![p3color](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p3color.JPG?raw=true)
+
+![p3blue](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p3blue.JPG?raw=true)
+
+## 4.- Crea contenido
