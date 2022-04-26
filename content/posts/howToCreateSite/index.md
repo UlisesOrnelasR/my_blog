@@ -268,3 +268,26 @@ entonces escribo "blue".
 ![p3blue](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p3blue.JPG?raw=true)
 
 ## 4.- Crea contenido
+
+Puedes hacer los cambios que quieras dentro de tu sitio web, por ejemplo te enseñaré a crear un post en tu sitio.
+
+Primero debes crear un archivo.md con el nombre que quieras dentro de la carpeta content/post/, yo le pondre el nombre de **gatitos.md**
+y pon el siguiente contenido
+
+```texto
+---
+title: "Gatitos"
+date: 2022-04-26
+tags: ["Beaty", "Animals"] 
+draft: false
+---
+
+## Los gatitos
+
+No cabe duda que los gatos son una excelente compañía. Son perfectos cómplices para las personas que buscan un compañero con quien descansar, que le guste pasar momentos tranquilos y sobretodo aquel que busca un amigo fiel. Muchos artistas afirman que son la mejor compañía y, a veces, una gran inspiración.
+```
+
+**Recurda** iniciar tu servido o si ya lo tienes iniciados solo guarda los cambios en VsCode
+Listo! Ya tienes tu primer post.
+
+![p4post](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p4post.JPG?raw=true)
