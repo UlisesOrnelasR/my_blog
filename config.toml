@@ -1,4 +1,4 @@
-baseurl = " https://ulisesornelasr.github.io/my_blog/"
+baseurl = "https://ulisesornelasr.github.io/my_blog/"
 title = "Blog <Ulises_Ornelas/>"
 theme = "hugo-theme-console"
 languageCode = "en-us"
