@@ -294,6 +294,19 @@ Listo! Ya tienes tu primer post.
 
 ## 4.- Construye tu webSite
 
-Lo que hemos hecho hasta ahora ha sido crear un nuevo proyecto de Hugo, añadimos un tema, lo configuramos, y creamos un nuevo post, todo esto lo hemos probado en local.
+Muy bien, ahora tenemos nuestro sitio web al que le añadimos un tema, un post y lo configuramos...
 
-La gran ayuda de Hugo es poder construir un website con todo lo anterior, para ello es necesario ejecutar el siguiente comando:
+Pero esto lo hicimos **localmente**, y esto es lo que hace Hugo, nos ayuda a construir un webSite de manera sencilla.
+Para construir nuestro proyecto ejecutaremos el siguiente comando en nuestra terminal.
+
+```texto
+hugo -D
+```
+
+Este comando nos generará una carpeta **public** que solo contendrá archivos de tipo, html, css y js.
+
+![p4constru](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p4constru.JPG?raw=true)
+
+Todo lo que hicimos anteriormente se resume en esta carpeta, la cual podemos subir a algún servidor o usar GitHub Pages.
+
+**Pero esto lo veremos próximamente...**
