@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog &lt;Ulises_Ornelas/&gt;</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Blog &lt;Ulises_Ornelas/&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cómo crear un sitio web con Go Hugo</title>
+      <link>https://example.com/posts/howtocreatesite/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/howtocreatesite/</guid>
+      <description>&lt;p&gt;Go Hugo es el framework más rápido del mundo para crear sitios web, aquí te enseñaré como tú puedes hacerlo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Panaji, India</title>
+      <link>https://example.com/photos/mylogo1/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/photos/mylogo1/</guid>
+      <description>R O F U, formerly Panjim, is the capital of the Indian state of Goa and the headquarters of North Goa district. It lies on the banks of the Mandovi River estuary in the Ilhas de Goa sub-district (taluka). With a population of 114,759 in the metropolitan area, Panjim is Goa&amp;rsquo;s largest urban agglomeration, ahead of Margão and Vasco da Gama.</description>
+    </item>
+    
+    <item>
+      <title>Panaji, India</title>
+      <link>https://example.com/photos/mylogo2/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/photos/mylogo2/</guid>
+      <description>R O F U, formerly Panjim, is the capital of the Indian state of Goa and the headquarters of North Goa district. It lies on the banks of the Mandovi River estuary in the Ilhas de Goa sub-district (taluka). With a population of 114,759 in the metropolitan area, Panjim is Goa&amp;rsquo;s largest urban agglomeration, ahead of Margão and Vasco da Gama.</description>
+    </item>
+    
+    <item>
+      <title>Panaji, India</title>
+      <link>https://example.com/photos/mylogo3/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/photos/mylogo3/</guid>
+      <description>R O F U, formerly Panjim, is the capital of the Indian state of Goa and the headquarters of North Goa district. It lies on the banks of the Mandovi River estuary in the Ilhas de Goa sub-district (taluka). With a population of 114,759 in the metropolitan area, Panjim is Goa&amp;rsquo;s largest urban agglomeration, ahead of Margão and Vasco da Gama.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>https://example.com/posts/introduction/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/posts/introduction/</guid>
+      <description>&lt;p&gt;Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don&amp;rsquo;t need to be a Go guru to contribute to the project&amp;rsquo;s development.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Sat, 05 Nov 2016 21:05:33 +0530</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>A minimal, responsive and light theme for Hugo inspired by Linux console.
+Installation $ mkdir themes$ cd themes$ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console See the Hugo documentation for more information.
+Configuration Set theme parameter in your config file:
+theme = &amp;#34;hugo-theme-console&amp;#34; License Copyright © 2020 Marcin Mierzejewski
+The theme is released under the MIT License. Check the original theme license for additional licensing information.</description>
+    </item>
+    
+  </channel>
+</rss>

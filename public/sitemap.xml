@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    
+        
+        <url>
+            <loc>https://example.com/</loc>
+            <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/posts/howtocreatesite/</loc>
+            <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/photos/mylogo1/</loc>
+            <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/photos/mylogo2/</loc>
+            <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/photos/mylogo3/</loc>
+            <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/photos/</loc>
+            <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/posts/</loc>
+            <lastmod>2022-04-25T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/posts/introduction/</loc>
+            <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/about/</loc>
+            <lastmod>2016-11-05T21:05:33+05:30</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/categories/</loc>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://example.com/tags/</loc>
+        </url>
+        
+    
+</urlset>
