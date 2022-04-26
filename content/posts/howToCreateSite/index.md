@@ -73,7 +73,7 @@ git init
 Obtenemos la liga de nuestro repositorio, la pegamos en la terminal y ejecutamos el comando.
  **OJO** la terminal debe estar apuntando a la carpeta del proyecto.
 
-![p2remote](https://github.com/assetsMy_blog/blob/master/HowToCreateSite/p2remote.JPG?raw=true)
+![p2remote](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/HowToCreateSite/p2remote.JPG?raw=true)
 
 Ahora ya tenemos **enlazado** nuestro repo local de git con el repo remoto de GitHub.
 
