@@ -159,7 +159,7 @@ Después de ejecutar el comando obtendremos el **contenido del repo que hicimos 
 
 ![p3module](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/HowToCreateSite/p3submodule.JPG?raw=true)
 
-Abrimos VScode y copiamos esto en el archivo **config.toml**
+Abrimos VScode y copiamos esto en el archivo **config.toml**, esto es lo que viene por defecto en el sitio que se nos da de ejemplo.
 
 ```texto
 baseURL = "http://example.com/"
@@ -310,3 +310,5 @@ Este comando nos generará una carpeta **public** que solo contendrá archivos d
 Todo lo que hicimos anteriormente se resume en esta carpeta, la cual podemos subir a algún servidor o usar GitHub Pages.
 
 **Pero esto lo veremos próximamente...**
+
+## No olvides subir tus cambios a GitHub 👾
