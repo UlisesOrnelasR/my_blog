@@ -242,7 +242,7 @@ Abrimos la terminal y ejecutamos el siguiente comando:
 hugo server
 ```
 
-Esperamos a que esté listo... Y abrimos en el navegador la dirección que nos da, en mi caso **http://localhost:1313/**
+Esperamos a que esté listo... Y abrimos en el navegador la dirección que nos da, en mi caso [localhost](http://localhost:1313/)
 
 ![p3server](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p3server.JPG?raw=true)
 
@@ -291,3 +291,9 @@ No cabe duda que los gatos son una excelente compañía. Son perfectos cómplice
 Listo! Ya tienes tu primer post.
 
 ![p4post](https://github.com/UlisesOrnelasR/assetsToBlogHowToSite/blob/master/p4post.JPG?raw=true)
+
+## 4.- Construye tu webSite
+
+Lo que hemos hecho hasta ahora ha sido crear un nuevo proyecto de Hugo, añadimos un tema, lo configuramos, y creamos un nuevo post, todo esto lo hemos probado en local.
+
+La gran ayuda de Hugo es poder construir un website con todo lo anterior, para ello es necesario ejecutar el siguiente comando:
