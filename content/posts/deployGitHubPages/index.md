@@ -55,7 +55,7 @@ En mi caso modificaré las líneas que dicen 'main' por 'master' porque es mi br
 
 **Guarda** los cambios y súbelos a tu repositorio de GitHub.
 
-Puedes observar en el repositorio del poyecto como ahora tenemos dos branches
+Puedes observar en el repositorio del poyecto como ahora tenemos dos branches.
 
 ![p1action](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p1action.JPG?raw=true)
 
