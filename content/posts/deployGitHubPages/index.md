@@ -51,6 +51,14 @@ jobs:
 
 En mi caso modificaré las líneas que dicen 'main' por 'master' porque es mi branch default en GitHub
 
-![p1master]()
+![p1master](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p1master.JPG?raw=true)
 
-**Guarda** los cambios
+**Guarda** los cambios y súbelos a tu repositorio de GitHub.
+
+Puedes observar en el repositorio del poyecto como ahora tenemos dos branches
+
+![p1action](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p1action.JPG?raw=true)
+
+![p1deploy](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p1deploy.JPG?raw=true)
+
+![p2workflow](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p1workflow.JPG?raw=true)
