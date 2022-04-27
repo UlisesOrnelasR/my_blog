@@ -91,7 +91,7 @@ Volvemos a nuestro proyecto y abrimos la terminal.
 
 Subimos los cambios a GitHub al branch **master** y automáticamente se construirá nuestro proyecto.
 
-![p3push]()
+![p3push](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p3push.JPG?raw=true)
 
 Podemos ver el estado de nuestro deploy en la pestaña **Actions** tardarán unos segundos en estar listas.
 
