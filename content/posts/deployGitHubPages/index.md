@@ -95,8 +95,8 @@ Subimos los cambios a GitHub al branch **master** y automáticamente se construi
 
 Podemos ver el estado de nuestro deploy en la pestaña **Actions** tardarán unos segundos en estar listas.
 
-![p3action]()
-![p3finish]()
+![p3action](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p3action.JPG?raw=true)
+![p3finish](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p3finish.JPG?raw=true)
 
 Cuando **estén en verde** vamos al link que guardamos anteriormente, que habíamos dicho que era nuestro link personal.
 En mi caso es este [http://ulisesornelasr.github.io/my_webSite/](https://ulisesornelasr.github.io/my_webSite/), ya lo puedo pegar en una pestaña de mi navegador.
