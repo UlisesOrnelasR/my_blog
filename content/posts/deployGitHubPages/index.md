@@ -101,6 +101,12 @@ Podemos ver el estado de nuestro deploy en la pestaña **Actions** tardarán uno
 Cuando **estén en verde** vamos al link que guardamos anteriormente, que habíamos dicho que era nuestro link personal.
 En mi caso es este [http://ulisesornelasr.github.io/my_webSite/](https://ulisesornelasr.github.io/my_webSite/), ya lo puedo pegar en una pestaña de mi navegador.
 
-Listo, ya tenemos nuestro webSite desplegado en una página de **GitHub Pages!** 🚀
+#### Listo, ya tenemos nuestro webSite desplegado en una página de **GitHub Pages!** 🚀
 
 ![p3listo](https://github.com/UlisesOrnelasR/assetsMy_blog/blob/master/deployGithubPages/p3listo.JPG?raw=true)
+
+*Deseando que te encuentres bien, te saluda Ulises🤵...*
+*Sigueme en mis redes*
+[GitHub](https://github.com/UlisesOrnelasR)
+[Linkedin](https://www.linkedin.com/in/ulises-ornelas/)
+[Twitter](https://twitter.com/UlisesOrnelass)

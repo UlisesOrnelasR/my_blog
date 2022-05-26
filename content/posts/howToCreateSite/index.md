@@ -312,3 +312,9 @@ Todo lo que hicimos anteriormente se resume en esta carpeta, la cual podemos sub
 **Pero esto lo veremos próximamente...**
 
 ## No olvides subir tus cambios a GitHub 👾
+
+*Deseando que te encuentres bien, te saluda Ulises🤵...*
+*Sigueme en mis redes*
+[GitHub](https://github.com/UlisesOrnelasR)
+[Linkedin](https://www.linkedin.com/in/ulises-ornelas/)
+[Twitter](https://twitter.com/UlisesOrnelass)
