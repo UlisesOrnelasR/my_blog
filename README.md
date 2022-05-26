@@ -6,4 +6,4 @@
 
 - [Deploy del sitio con GitHub pages](https://ulisesornelasr.github.io/my_blog/posts/deploygithubpages/)
   
-- [Cómo instalar NVM(Node Version Manager) en windows](https://ulisesornelasr.github.io/my_blog/posts/deploygithubpages/)
+- [Cómo instalar NVM(Node Version Manager) en windows](https://ulisesornelasr.github.io/my_blog/posts/installnvm/)
