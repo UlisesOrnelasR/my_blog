@@ -7,4 +7,4 @@
 - [Deploy del sitio con GitHub pages](https://ulisesornelasr.github.io/my_blog/posts/deploygithubpages/)
   
 - [Cómo instalar NVM(Node Version Manager) en windows](https://ulisesornelasr.github.io/my_blog/posts/installnvm/)
-- [Diferencias entre REM y EM (medidas relativas)](https://ulisesornelasr.github.io/my_blog/posts/cssremem/)
+- [CSS: Diferencias entre REM y EM (medidas relativas)](https://ulisesornelasr.github.io/my_blog/posts/cssremem/)
