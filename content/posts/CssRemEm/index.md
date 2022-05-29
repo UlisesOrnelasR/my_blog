@@ -6,9 +6,8 @@ date = "2022-05-29"
 Personalmente durante mi aprendizaje en CSS, solamente usaba unidades de medida en px, esta es una unidad de medida absoluta, es decir, que ya está definida y no depende de ninguna otra, como por ejemplo:
 
 - padding: 50px;
-- margin-top: 20px;
-etc, etc...
-
+- margin-top: 20px; etc, etc...
+<!--more-->
 Al ir profundizando mi conocimiento en CSS descubrí que no solamente podía usar unidades de medida absolutas, y que también existían las unidades relativas en CSS.
 
 Esto quiere decir que se calculan a partir de otro valor de referencia.
