@@ -8,7 +8,8 @@ Personalmente durante mi aprendizaje en CSS, solamente usaba unidades de medida 
 - padding: 50px;
 - margin-top: 20px;
 etc, etc...
-Al ir profundizando mi conocimiento descubrí que no solamente podía usar unidades de medida absolutas, y que también existían las unidades relativas en CSS.
+
+Al ir profundizando mi conocimiento en CSS descubrí que no solamente podía usar unidades de medida absolutas, y que también existían las unidades relativas en CSS.
 
 Esto quiere decir que se calculan a partir de otro valor de referencia.
 
