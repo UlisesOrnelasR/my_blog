@@ -50,6 +50,7 @@ Por lo tanto, para cambiarla y poder tener las ventajas que ofrece que sea de l�
 ![b2](https://user-images.githubusercontent.com/99143567/170921097-0513862b-c883-4637-b652-08115596b383.JPG)
 
 2.- Le asignamos esta clase a nuestra etiqueta de bloque, para que se *convierta a una etiqueta de línea*.
+![b3](https://user-images.githubusercontent.com/99143567/170921846-bde39206-3cba-46af-8ba8-2e6aad039771.JPG)
 
 #### Cambiando una etiqueta de línea a bloque
 
