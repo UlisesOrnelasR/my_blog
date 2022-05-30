@@ -26,7 +26,7 @@ El font-size del *h1* deberia ser 16px (1*16=16px).
 ![gi2](https://user-images.githubusercontent.com/99143567/170896051-a5318132-ba7f-4330-ba03-0fb0c884c6f5.gif)
 
 
-Si ahora añadimos un ppárrafode 2rems, este ddeberíatener un font-size de 32px (2*16=32px).
+Si ahora añadimos un párrafode 2rems, este debería tener un font-size de 32px (2*16=32px).
 ![gi3](https://user-images.githubusercontent.com/99143567/170896058-2c1e52bc-40d6-4ce8-90f5-d987068308d7.gif)
 
 
@@ -49,7 +49,7 @@ Si en este elemento asignamos un padding de 1em, recordemos que es **relativo** 
 ![gi6](https://user-images.githubusercontent.com/99143567/170896075-076d20c2-6d1e-4343-810e-605f3400798e.gif)
 
 
-El padding es de 28px debido a que en el *font-size del elemento* *h3* es 2em = 28px, ahora esto sera igual a 1em = 28px en nunuestras propiedadese este elemento.
+El padding es de 28px debido a que en el *font-size del elemento* *h3* es 2em = 28px, ahora esto sera igual a 1em = 28px en nuestras propiedades de este elemento.
 
 Por lo tanto el padding de 1em resulto 28px.
 
