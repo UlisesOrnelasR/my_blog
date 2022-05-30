@@ -79,6 +79,8 @@ Las agregamos a una etiqueta de línea.
 Podemos observar que *no cambiaron* las dimensiones de nuestra etiqueta.
 
 Pero si le agregamos la propiedad display: **inline-block;**
+![b10](https://user-images.githubusercontent.com/99143567/170922453-ad035138-5b47-497b-979f-e2a1b34909af.JPG)
+
 Existen **ventajas** porque *podría ponerse al lado de otro elemento*, además de que *pudiéramos establecer un alto y un ancho*.
 ![b9](https://user-images.githubusercontent.com/99143567/170921264-7ca4fabc-752f-430d-b55f-b37ccb9caf87.JPG)
 
