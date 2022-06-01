@@ -17,7 +17,7 @@ g3
 Github aloja proyectos en la nube utilizando el sistema de control de versiones de git, podemos decir que localmente podemos guardar proyectos, pero github hara que estos cambios puedan estar en la nube, mas sin embargo github no tiene las funciones de git, github cumple con la funcion de almacenar todo el historial del código, pero git es el encargado de versionar el código.
 g4
 
-#### Git es una herramienta muy potente que cumple con las siguientes ventajas y funcionalidades:🔨
+## Git es una herramienta muy potente que cumple con las siguientes ventajas y funcionalidades:🔨
 
 **Tener un historial completo de las versiones de nuestro proyecto**:
   Con git podemos tener a la mano todos los cambios a lo largo de la contrucción de un proyecto, por ejemplo, en caso de insertar un error en el codigo accidentalmente, entre muchas otras cosas, git nos puede permitir regresar a una versión que no contenga este error y asi, podemos darnos una pista de como solucionarlo.
@@ -45,7 +45,7 @@ Esto lo veremos mas adelante...
 
 Por el momento para entender que es Git es suficiente.😉
 
-#### Flujo de trabajo en Git básico con Git y Github💱
+## Flujo de trabajo en Git básico con Git y Github💱
 **Working directory**
 Aqui nos encontramos en nuestro computador en cualquier carpeta que queramos versionar.
 Pero aun eliminando y modificando archivos estos cambios no se guardaran en nuestro control de versiones hasta que hallamos inicializado git, para ello usaremos el comando ``git init``, si es que no hay ningun repositorio local existente en esa ubicación.
