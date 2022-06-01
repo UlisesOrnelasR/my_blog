@@ -13,11 +13,9 @@ Primeramente vamos a aclarar que Git y Github son dos cosas muy diferentes, Git 
 **Git** es un sistema de *control de versiones* distribuido, es decir, git nos permitira tener un historial de como nuestro proyecto va creciendo, ademas mencionabamos que es distribuido, esto permitira cuando asi lo deseemos compartir todas esas versiones de cambios que hicimos a lo largo de la construcción del código.
 ![g3](https://user-images.githubusercontent.com/99143567/171487829-8f345219-be97-4f5b-a23b-c09082c0a1e6.png)
 
-
 ## ¿Que es Github?
 Github aloja proyectos en la nube utilizando el sistema de control de versiones de git, podemos decir que localmente podemos guardar proyectos, pero github hara que estos cambios puedan estar en la nube, mas sin embargo github no tiene las funciones de git, github cumple con la funcion de almacenar todo el historial del código, pero git es el encargado de versionar el código.
 ![g4](https://user-images.githubusercontent.com/99143567/171487862-adefecad-4924-46d7-a90c-fbe6d4c3b232.png)
-
 
 ## Git es una herramienta muy potente que cumple con las siguientes ventajas y funcionalidades:🔨
 
@@ -48,6 +46,7 @@ Esto lo veremos mas adelante...
 Por el momento para entender que es Git es suficiente.😉
 
 ## Flujo de trabajo en Git básico con Git y Github💱
+
 **Working directory**
 Aqui nos encontramos en nuestro computador en cualquier carpeta que queramos versionar.
 Pero aun eliminando y modificando archivos estos cambios no se guardaran en nuestro control de versiones hasta que hallamos inicializado git, para ello usaremos el comando ``git init``, si es que no hay ningun repositorio local existente en esa ubicación.
