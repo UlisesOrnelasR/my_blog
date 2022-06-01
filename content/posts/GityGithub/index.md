@@ -19,28 +19,28 @@ Github aloja proyectos en la nube utilizando el sistema de control de versiones 
 
 ## Git es una herramienta muy potente que cumple con las siguientes ventajas y funcionalidades:🔨
 
-**Tener un historial completo de las versiones de nuestro proyecto**:
+- **Tener un historial completo de las versiones de nuestro proyecto**:
   Con git podemos tener a la mano todos los cambios a lo largo de la construcción de un proyecto, por ejemplo, en caso de insertar un error en el código accidentalmente, entre muchas otras cosas, git nos puede permitir regresar a una versión que no contenga este error y así, podemos darnos una pista de como solucionarlo.
 
-**Moverte en el tiempo**
+- **Moverte en el tiempo**
 Git permite moverte en el tiempo por todas las revisiones de código y desplazarte de forma sencilla.
 
-**Almacena tu código**
+- **Almacena tu código**
 Git permite almacenar el historial de tu proyecto de forma local.
 
-**Facilita el trabajo en equipo**
+- **Facilita el trabajo en equipo**
 Git permite que cada miembro del equipo obtenga una copia del proyecto para que así pueda trabajar y no haya interferencias con lo que esta haciendo su compañero.
 
-**Git es un sistema de control de versiones distribuido**
+- **Git es un sistema de control de versiones distribuido**
 No depende de un repositorio central y permite trabajar incluso sin conexión.
 
-**Permite trabajar con ramas**
+- **Permite trabajar con ramas**
     A la hora de trabajar en equipo, git brinda solución a la hora de estar todos aportando funcionalidades a un proyecto, y esto lo hace mediante las **branch**, haciendo que cada miembro del equipo pueda introducir sus cambios en una rama y fusionarla con la rama principal.
 
-**Es un software libre**
+- **Es un software libre**
 Puedes contribuir a Git para mejorarlo.
 
-**Permite respaldar tus proyectos en la nube, por ejemplo, con GitHub**
+- **Permite respaldar tus proyectos en la nube, por ejemplo, con GitHub**
 Esto lo veremos más adelante...
 
 Por el momento para entender que es Git es suficiente. 😉
