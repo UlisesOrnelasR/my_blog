@@ -41,6 +41,7 @@ No depende de un repositorio central y permite trabajar incluso sin conexión.
 Puedes contribuir a Git para mejorarlo.
 
 - **Permite respaldar tus proyectos en la nube, por ejemplo, con GitHub**
+  
 Esto lo veremos más adelante...
 
 Por el momento para entender que es Git es suficiente. 😉
