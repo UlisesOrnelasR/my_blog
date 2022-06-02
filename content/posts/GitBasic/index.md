@@ -1,6 +1,6 @@
 +++
 title = "Git y Github: Comandos básicos"
-date = "2022-05-31"
+date = "2022-06-01"
 +++
 
 En este post entenderás que es Git y que es Github, aprenderás cuáles son sus diferencias y porque es tan importante utilizar estas dos herramientas si eres un desarrollador de software...💻
