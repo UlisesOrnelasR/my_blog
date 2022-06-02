@@ -16,25 +16,25 @@ Git init
 
 Seleccionar todos los cambios que queramos versionar y añadirlos a *stage area*
 
-```text
+```texto
 git add .
 ```
 
 Para ver los cambios que se han hecho en el proyecto, los cambios que ya se agregaron para subir al repo local, tanto como los que no se han agregado
 
-```text
+```texto
 git status -s
 ```
 
 Añadir una descripción a los cambios que se subirán al repo local
 
-```text
+```texto
 git commit -m "aqui tu descripcion"
 ```
 
 Subir los cambios al repositorio remoto 
 
-```text
+```texto
 git push origin master
 ```
 
@@ -51,7 +51,7 @@ Perfecto, ahora podemos iniciar con este mini taller, para ello, primeramente in
 
 2.-Escribimos el comando:
 
-```text
+```texto
 git init
 ```
 
@@ -95,7 +95,7 @@ Creare unos archivos, y carpetas para que git reconozca que hay cambios en el pr
 
 Con el comando:
 
-```text
+```texto
 git status
 ``` 
 
@@ -108,7 +108,7 @@ Git nos dice que hay archivos que no están siendo seguidos.
 
 Para ver de forma más resumida los cambios tambien podemos usar:
 
-```text
+```texto
 git status -s
 ```
 
@@ -116,13 +116,13 @@ git status -s
 
 Ahora bien, estos cambios que git no está siguiendo, debemos pasarlos a *stage area*, podemos hacerlo seleccionando cada uno con:
 
-```text
+```texto
 git add <nombre de tu archivo>
 ```
 
 O agregando todos los cambios:
 
-```text
+```texto
 git add .
 ```
 
@@ -138,7 +138,7 @@ Muy bien ahora que tenemos nuestro cambio en el *stage area* vamos a subirlo a n
 
 Se recomienda que, con tu descripción, se pueda entender que es lo que se hizo.
 
-```text
+```texto
 git commit 'aquí tu descripción del cambio'
 ```
 
@@ -149,7 +149,7 @@ Ahora nuestro cambio se encuentra en el historial de modificaciones del proyecto
 
 Excelente, ahora solo nos queda subir estos cambios al repo remoto, para ello usaremos el comando:
 
-```text
+```texto
 git push origin master
 ```
 
