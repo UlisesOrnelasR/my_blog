@@ -1,5 +1,5 @@
 +++
-title = "Git y Github: Comandos básicos"
+title = "Git y Github: Comandos básicos (git init, git add, git commit, git  push)"
 date = "2022-06-02"
 +++
 
