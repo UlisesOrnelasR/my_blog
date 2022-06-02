@@ -10,31 +10,31 @@ Muy bien, ahora que ya conocemos un poquito de teoría sobre cómo funciona Git 
 
 Inicializar un repositorio en Git
 
-```
+```text
 Git init
 ```
 
 Seleccionar todos los cambios que queramos versionar y añadirlos a *stage area*
 
-```
+```text
 git add .
 ```
 
 Para ver los cambios que se han hecho en el proyecto, los cambios que ya se agregaron para subir al repo local, tanto como los que no se han agregado
 
-```
+```text
 git status -s
 ```
 
 Añadir una descripción a los cambios que se subirán al repo local
 
-```
+```text
 git commit -m "aqui tu descripcion"
 ```
 
 Subir los cambios al repositorio remoto 
 
-```
+```text
 git push origin master
 ```
 
@@ -51,18 +51,19 @@ Perfecto, ahora podemos iniciar con este mini taller, para ello, primeramente in
 
 2.-Escribimos el comando:
 
-```
+```text
 git init
 ```
 
 Nos debería aparecer lo siguiente y se habrá creado una carpeta *.git* por favor **no elimines esta carpeta**, ya que aquí se encontrara guardado el historial de cambios de tu proyecto.
-g1
+![g1](https://user-images.githubusercontent.com/99143567/171567129-4900879e-90e8-4bf2-bf71-52649d9364e2.gif)
+
 
 ## Creación del repositorio remoto
 
 1.- Nos dirigimos a nuestro perfil en GitHub, seleccionamos **Repositories** y seleccionamos **New** para crear un nuevo repositorio remoto en GitHub.
 
-g2
+![g2](https://user-images.githubusercontent.com/99143567/171567145-9ccdc44b-76ab-4135-9618-4efd5f35de7d.gif)
 
 2.- Te recomiendo que en el nombre del repositorio uses el mismo nombre que estas usando en tu proyecto, para que en un futuro no te confundas.
 En mi caso mi proyecto se llama *practicandoGit* entonces este nombre le daré al repositorio remoto.
@@ -75,7 +76,7 @@ Y finalizamos dando click en **Create repository**.
 
 Esto debería aparecer en tu pantalla:
 
-g3
+![g3](https://user-images.githubusercontent.com/99143567/171567161-ac4fa11f-7f9c-40bc-a8c5-c7a68c20ffe4.gif)
 
 ## Conectar el repositorio local con el repo remoto de GitHub
 
@@ -85,7 +86,7 @@ Muy bien, hasta ahora tenemos nuestro repositorio local y uno remoto, lo que har
 
 2.- Conectamos el repo local con el repo remoto a través del usando el siguiente comando que nos muestra.
 
-g4
+![g4](https://user-images.githubusercontent.com/99143567/171567235-19b0eff1-8565-4ba1-952b-463d67c2b700.gif)
 
 Listo ya tendremos conectados nuestro repo local, con nuestro repo remoto. 😉
 ## Git status
@@ -94,19 +95,20 @@ Creare unos archivos, y carpetas para que git reconozca que hay cambios en el pr
 
 Con el comando:
 
-```
+```text
 git status
 ``` 
 
 Git nos muestra los cambios que hay en nuestro proyecto.
 
-g5
+![g5](https://user-images.githubusercontent.com/99143567/171567270-4a3ed7cd-ef4b-42fc-b879-a0782e08df26.gif)
+
 
 Git nos dice que hay archivos que no están siendo seguidos.
 
 Para ver de forma más resumida los cambios tambien podemos usar:
 
-```
+```text
 git status -s
 ```
 
@@ -114,19 +116,19 @@ git status -s
 
 Ahora bien, estos cambios que git no está siguiendo, debemos pasarlos a *stage area*, podemos hacerlo seleccionando cada uno con:
 
-```
+```text
 git add <nombre de tu archivo>
 ```
 
 O agregando todos los cambios:
 
-```
+```text
 git add .
 ```
 
 Por lo pronto yo subire solo un cambio.
 
-g6
+![g6](https://user-images.githubusercontent.com/99143567/171567302-4f099e56-7af8-4caa-8b51-9207bd6fb6ae.gif)
 
 Podemos observar que ahora git ya está contemplando este archivo porque se puso en color verdecito. 🙂
 
@@ -136,22 +138,22 @@ Muy bien ahora que tenemos nuestro cambio en el *stage area* vamos a subirlo a n
 
 Se recomienda que, con tu descripción, se pueda entender que es lo que se hizo.
 
-```
+```text
 git commit 'aquí tu descripción del cambio'
 ```
 
-g7
+![g7](https://user-images.githubusercontent.com/99143567/171567319-fa1790c9-bcab-48a8-aace-705049cdf375.gif)
 
 Ahora nuestro cambio se encuentra en el historial de modificaciones del proyecto, tan solo en el repositorio local. 😦
 ## Subiendo los cambios al repo remoto de GitHub
 
 Excelente, ahora solo nos queda subir estos cambios al repo remoto, para ello usaremos el comando:
 
-```
+```text
 git push origin master
 ```
 
-g8
+![g8](https://user-images.githubusercontent.com/99143567/171567348-d20c8cf0-9e27-420d-9120-70576bd556c3.gif)
 
 Listo, nuestros cambios ya están en la nube, nuestros repos conectados y así podemos seguir trabajando.
 
