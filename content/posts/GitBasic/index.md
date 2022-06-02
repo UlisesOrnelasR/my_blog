@@ -33,7 +33,7 @@ Veremos cada comando mas adelante. 😉
 - Omitiremos la instalación de Git, puedes descargarlo desde aquí [descarga Git](https://git-scm.com/downloads).
 
 - Tambien omitiremos la creación de una cuenta en GitHub, puedes hacerlo desde aquí [GitHub](https://github.com/).
-## Inicializando un nuevo repositorio
+## Inicializando un nuevo repositorio 
 
 Perfecto, ahora podemos iniciar con este mini taller, para ello, primeramente inicializaremos un repositorio local en nuestro proyecto.
 
@@ -43,8 +43,97 @@ Perfecto, ahora podemos iniciar con este mini taller, para ello, primeramente in
 
 ```git init```
 
+Nos deberia aparecer lo siguiente y se habra creado una carpeta *.git* por favor **no elimines esta carpeta**, ya que aquí se encuentrara guardado el historial de cambios de tu rpoyecto.
+g1
 
-#### Perfecto, ahora ya sabrás diferenciar entre Git y GitHub, más adelante profundizaremos en este tema 🚀
+## Creación del repositorio remoto
+
+1.- Nos dirigimos a nuestro perfil en github, seleccionamos **Repositories** y seleccionamos **New** para crear un nuevo repositorio remoto en GitHub.
+
+g2
+
+2.- Te recomiendo que en el nombre del repositorio uses el mismo nombre que estas usando en tu proyecto, para que en un futuro no te confundas.
+En mi caso mi proyecto se llama *practicandoGit* entonces este nombre le dare al repositorio remoto.
+
+Por el momento no añadiremos un *readme* pero mas adelante podemos hacerlo, esto nos servira para describir nuestro proyecto.
+
+Seleccionamos si queremos que nuestro repo sea publico o privado, en mi caso quiero que sea publico.
+
+Y finalizamos dando click en **Create repository**.
+
+Esto deberia aparecer en tu pantalla:
+
+g3
+
+## Conectar el repositorio local con el repo remoto de GitHub
+
+Muy bien, hasta ahora tenemos nuestro repositorio local y uno remoto, lo que haremos ahora sera conectar estos dos.
+
+1.- Abrimos git bash dentro de la carpeta de nuestro proyecto donde inicializamos un repo local.
+
+2.- Conectamos el repo local con el repo remoto a traves del usando el siguiente comando que nos muestra.
+
+g4
+
+Listo ya tendremos conectados nuestro repo local, con nuestro repo remoto. 😉
+## Git status
+
+Creare unos archivos, y carpetas para que git reconozca que hay cambios en el proyecto.
+
+Con el comando:
+
+```git status``` 
+
+Git nos muestra los cambios que hay en nuestro proyecto.
+
+g5
+
+Git nos dice que hay archivos que no estan siendo seguidos.
+
+Para ver de forma mas resumida los cambios tambien podemos usar:
+
+```git status -s```
+
+## Selecionar los cambios que queremos versionar
+
+Ahora bien, estos cambios que git no esta siguiendo, debemos pasarlos a *stage area*, podemos hacerlo seleccionando cada uno con:
+
+```git add <nombre de tu archivo>```
+
+O agregando todos los cambios:
+
+```git add .```
+
+Por lo pronto yo subire solo un cambio.
+
+g6
+
+Podemos observar que ahora git ya esta contemplando este archivo porque se puso en color verdesito. 🙂
+
+## Subiendo los cambios al repo local
+
+Muy bien ahora que tenemos nuestro cambio en el *stage area* vamos a subirlo a nuestro **repo local**, para ello lo añadiremos con una descripción.
+
+Se recomienda que con tu descripción, se pueda entender que es lo que se hizo.
+
+```git commit 'aqui tu descripcion del cambio'```
+
+g7
+
+Ahora nuestro cambio se encuentra en el historial de modificaciones del proyecto, tan solo en el repositorio local. 😦
+## Subiendo los cambios al repo remoto de GitHub
+
+Excelente, ahora solo nos queda subir estos cambios al repo remoto, para ello usaremos el comando:
+
+```git push origin master```
+
+g8
+
+Listo, nuestros cambios ya estan en la nube, nuestros repos conectados y asi podemos seguir trabajando.
+
+Esto es solo una parte de lo que es Git, y al trabajarlo con GitHub podemos hacer grandes cosas, seguiremos hablando más adelante sobre esto. 😉
+
+#### Excelenteee, hoy vimos los comandos básicos de git, como conectar nuestro repositorio local con el remoto, y como subir nuestros cambios 🚀
 
 *Deseando que te encuentres bien, te saluda Ulises🤵...*
 *Sígueme en mis redes*
