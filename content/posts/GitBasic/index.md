@@ -10,7 +10,7 @@ Muy bien, ahora que ya conocemos un poquito de teoría sobre cómo funciona Git 
 
 Inicializar un repositorio en Git
 
-```text
+```texto
 Git init
 ```
 
