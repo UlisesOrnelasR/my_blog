@@ -11,7 +11,7 @@ Muy bien, ahora que ya conocemos un poquito de teoría sobre cómo funciona Git 
 Inicializar un repositorio en Git
 
 ```texto
-Git init
+git init
 ```
 
 Seleccionar todos los cambios que queramos versionar y añadirlos a *stage area*
