@@ -3,46 +3,91 @@ title = "Git: Comandos básicos (git diff, git log, git show)"
 date = "2022-06-02"
 +++
 
-Muy bien, ahora que ya conocemos un poquito de teoría sobre cómo funciona Git y GitHub, comenzaremos a usar los comandos básicos...🐣
+En este post hablaremos acerca de comandos importantes a la hora que no sabemos bien que cambios se hicieron, estaremos enfocados en comandos de Git que devuelven información...🐣
 
 <!--more-->
-**Si ya tienes algo de experiencia te dejo el resumen de los comandos utilizados en este post:**
+Para estos ejercicios yo usare la consola de PowerShell, tu puedes usar la que tu quieras, ya sea esta, el cmd, o git bash.
 
-Inicializar un repositorio en Git
+Para empezar a usar los comandos en la PowerShell, nos ubicaremos dentro de la carpeta de nuestro proyecto donde ya teniamos inicializado un repositorio.
 
-```texto
-Git init
-```
+En la barra de dirección escribimos 'powershell' y presionamos enter.
 
-Seleccionar todos los cambios que queramos versionar y añadirlos a *stage area*
+g1
 
-```texto
-git add .
-```
 
-Para ver los cambios que se han hecho en el proyecto, los cambios que ya se agregaron para subir al repo local, tanto como los que no se han agregado
+## Git diff
+
+Primeramente estaremos hablando de este comando:
 
 ```texto
-git status -s
+git diff <file>
 ```
 
-Añadir una descripción a los cambios que se subirán al repo local
+Este comando nos muestra los cambios que se realizaron en un cierto archivo, lee los cambios y los compara con una versión suya que fue guardada.
+
+Para mostrar los archivos que se modificaron, podemos apoyarnos con un *git status -s*.
+
+Modificare un archivo para que puedas entender como funciona.
+
+i1
+
+Ahora bien en la terminal para que git nos muestre los cambios que hubo en este archivo usamos:
 
 ```texto
-git commit -m "aqui tu descripcion"
+git diff <file>
 ```
+g2
 
-Subir los cambios al repositorio remoto 
+Podemos observar que con *git status* observamos los archivos modificados y con *git diff* los cambios especificamente en ese archivo.
+
+## Git log
 
 ```texto
-git push origin master
+git log --oneline
+``` 
+
+Con *git log* podemos revisar el historial commits que se han hecho en la historia del proyecto, tambien podemos saber quien y cuando lo hizo.
+
+g3
+
+Podemos salir de la pantalla de git log presionando la tecla **q**. Asi mismo con el comando:
+
+```texto
+git log --oneline
+```
+Podemos verlo de manera resumida, en otras consolas podriamos ver el codigo de manera mas legible porque incorporan colores.
+
+g4
+
+Cada linea representara un commit que se haya hecho, hasta arriba mostrara el commit mas reciente, y abajo los mas antiguos respectivamente.
+
+## Git status
+
+Este comando ya lo hemos visto, recordemos que este comando nos mostrara los archivos que fueron modificiados.
+
+```texto
+git status 
 ```
 
+g5
+## Git show
 
-## Inicializando un nuevo repositorio 
+Es un comando que nos muestra información de objetos ya subidos al repo local. En esta ocasión lo usaremos para mostrar cuales fueron los cambios en un commit en especifico.
 
+Por ejemplo usaremos el comando *git log* para mostrar los commits que se hicieron en el proyecto.
 
-#### Excelente, hoy vimos los comandos básicos de git, como conectar nuestro repositorio local con el remoto, y como subir nuestros cambios 🚀
+i2
+
+Seguido usaremos el comando de git show junto con el identificador del commit.
+
+```texto
+git show <identificador del commit>
+```
+
+g6
+
+Podemos observar que nos muestra cual fue el cambio que se realizo en este commit, en este caso se agrego una linea que dice 'volumen bajo'.
+#### Enhorabuena ahora ya sabes mas comando de git, con forme avancemos, seguiremos usando estos comando e iremos conociendo mas🚀
 
 *Deseando que te encuentres bien, te saluda Ulises🤵...*
 *Sígueme en mis redes*
