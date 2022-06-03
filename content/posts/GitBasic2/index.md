@@ -3,7 +3,7 @@ title = "Git: Comandos básicos (git diff, git log, git show)"
 date = "2022-06-02"
 +++
 
-En este post hablaremos acerca de comandos importantes a la hora que no sabemos bien que cambios se hicieron, estaremos enfocados en comandos de Git que devuelven información...🐣
+En este post hablaremos acerca de comandos que nos servirán a la hora que no sabemos bien que cambios se hicieron, estaremos enfocados en comandos de Git que devuelven información...🐣
 
 <!--more-->
 Para estos ejercicios yo usare la consola de PowerShell, tú puedes usar la que tu quieras, ya sea esta, el cmd, o git bash.
@@ -87,6 +87,17 @@ git show <identificador del commit>
 ![g6](https://user-images.githubusercontent.com/99143567/171785093-0b4a4f7a-6728-41b4-acf1-dd909e9fa69a.gif)
 
 Podemos observar que nos muestra cual fue el cambio que se realizó en este commit, en este caso se agregó una línea que dice 'volumen bajo'.
+
+En resumen:
+
+**git status:** Muestra las modificaciones que se hicieron en los archivos.
+
+**git diff:** Muestra las modificaciones de un archivo en especifico.
+
+**git log:** Muestra el historial de commits del proyecto.
+
+**git show:** Muestra el objeto en específico, en este caso lo usamos para revisar un commit.
+
 #### Enhorabuena ahora ya sabes más comando de git, con forme avancemos, seguiremos usando estos comandos e iremos conociendo más. 🚀
 
 *Deseando que te encuentres bien, te saluda Ulises🤵...*
