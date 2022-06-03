@@ -8,5 +8,6 @@
 - [CSS: Diferencias entre REM y EM (medidas relativas)](https://ulisesornelasr.github.io/my_blog/posts/cssremem/)
 - [CSS: Elementos de bloque y de línea](https://ulisesornelasr.github.io/my_blog/posts/inlineblock/)
 - [Git y Github: Fundamentos](https://ulisesornelasr.github.io/my_blog/posts/gitygithub/)
-- [Git y Github: Comandos básicos](https://ulisesornelasr.github.io/my_blog/posts/gitbasic/)
+- [Git: Comandos básicos (git init, git add, git commit, git push)](https://ulisesornelasr.github.io/my_blog/posts/gitbasic/)
+- [Git: Comandos básicos (git diff, git log, git show)](https://ulisesornelasr.github.io/my_blog/posts/gitbasic2/)
 
