@@ -14,9 +14,9 @@ Si realizaste modificaciones a un archivo, antes de subirlo a *stage area* y res
 git restore <file>
 ```
 
-i2
+![i2](https://user-images.githubusercontent.com/99143567/172026771-4ecce1b8-12a1-420d-9d24-cc249c956440.png)
 
-g2
+![g2](https://user-images.githubusercontent.com/99143567/172026776-048306a0-5bf7-48b4-a451-613e0bcb47a5.gif)
 
 **--staged**
 
@@ -26,9 +26,9 @@ Si accidentalmente subiste cambio a la etapa de stage, puedes descartarlo si as�
 git restore --staged <file>
 ```
 
-i1
+![i1](https://user-images.githubusercontent.com/99143567/172026785-33e1e1a8-b357-448a-81ae-32a75f6cbb45.png)
 
-g1
+![g1](https://user-images.githubusercontent.com/99143567/172026790-f9df0151-b9a9-4aeb-99ad-00ea35b10980.gif)
 
 **--source**
 
@@ -40,9 +40,9 @@ git restore --source <id commit> <file>
 
 Nota que debemos especificar el commit, y el archivo que queremos restaurar a esa versión.
 
-i3
+![i3](https://user-images.githubusercontent.com/99143567/172026793-420be507-604a-432f-a217-b9b9b450e8fc.png)
 
-g3
+![g3](https://user-images.githubusercontent.com/99143567/172026794-9d693e7c-d35b-4f0f-a033-ce4829a3fecf.gif)
 
 #### Enhorabuena ahora ya sabes más comandos de git, conforme avancemos, seguiremos usando estos comandos e iremos conociendo más. 🚀
 
