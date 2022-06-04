@@ -10,4 +10,5 @@
 - [Git y Github: Fundamentos](https://ulisesornelasr.github.io/my_blog/posts/gitygithub/)
 - [Git: Comandos básicos (git init, git add, git commit, git push)](https://ulisesornelasr.github.io/my_blog/posts/gitbasic/)
 - [Git: Comandos básicos (git diff, git log, git show)](https://ulisesornelasr.github.io/my_blog/posts/gitbasic2/)
+- [Git: Comandos (git restore)](https://ulisesornelasr.github.io/my_blog/posts/git3/)
 
