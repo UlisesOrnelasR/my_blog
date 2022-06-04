@@ -98,7 +98,7 @@ En resumen:
 
 **git show:** Muestra el objeto en específico, en este caso lo usamos para revisar un commit.
 
-#### Enhorabuena ahora ya sabes más comandos de git, con forme avancemos, seguiremos usando estos comandos e iremos conociendo más. 🚀
+#### Enhorabuena ahora ya sabes más comandos de git, conforme avancemos, seguiremos usando estos comandos e iremos conociendo más. 🚀
 
 *Deseando que te encuentres bien, te saluda Ulises🤵...*
 *Sígueme en mis redes*
