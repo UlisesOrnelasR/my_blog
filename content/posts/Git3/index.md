@@ -8,6 +8,16 @@ Si lo quieres ahora es deshacer algun cambio, lo veremos en este post con alguno
 <!--more-->
 ## Git restore
 
+Si realizaste modificaciones a un archivo, antes de subirlo a *stage area* y resulta que ya no quieres esas modificaciones y quieres regresar el archvivo como estaba, puedes usar el comando:
+
+```
+git restore <file>
+```
+
+i2
+
+g2
+
 **--staged**
 
 Si accidentalmente subiste cambio a la etapa de stage, puedes descartarlo si asi lo deseas, es decir, lo elimina del `stage area` pero deja intactas las modificaciones que le hiciste.
@@ -18,9 +28,23 @@ git restore --staged <file>
 
 i1
 
+g1
 
+**--source**
 
-#### Enhorabuena ahora ya sabes más comando de git, con forme avancemos, seguiremos usando estos comandos e iremos conociendo más. 🚀
+Si lo que queremos es restaurar un archivo a como estaba en un commit del pasado, lo que debemos hacer es usar el siguiente comando:
+
+```
+git restore --source <id commit> <file>
+```
+
+Nota que debemos especificar el commit, y el archivo que queremos restaurar a esa versión.
+
+i3
+
+g3
+
+#### Enhorabuena ahora ya sabes más comandos de git, con forme avancemos, seguiremos usando estos comandos e iremos conociendo más. 🚀
 
 *Deseando que te encuentres bien, te saluda Ulises🤵...*
 *Sígueme en mis redes*
