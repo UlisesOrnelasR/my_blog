@@ -46,6 +46,8 @@ Para hacer un fork de algún proyecto, simplemente nos metemos al repositorio de
 
 ![g2](https://user-images.githubusercontent.com/99143567/172074643-0b95d02b-d8c2-41bd-a2a5-98d40164a94f.gif)
 
+En un próximo post veremos lo que es un **pull request**... 😉
+
 Podemos observar que se creó un repositorio exactamente igual que el original, somos libres de hacer lo que queramos con el.
 
 #### Usaremos estos comandos e iremos conociendo más, conforme avancemos en este proceso de aprendizaje. 🚀
