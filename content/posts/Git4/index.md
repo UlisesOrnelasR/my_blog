@@ -12,7 +12,7 @@ Este comando es útil cuando **no se ha subido el commit a GitHub**, esto es por
 
 Este comando nos permite devolver nuestro proyecto a un estado anterior, en el que quizás este no fallaba, o no tenía errores.
 
-i1
+![i1](https://user-images.githubusercontent.com/99143567/172036441-32dbfe16-0013-4a03-905a-d6fd2b2cb199.png)
 
 **--mixed**
 
@@ -31,7 +31,7 @@ git reset <id del commit>
 
 Podemos observar en el siguiente video cómo funciona este comando:
 
-g1
+![g1](https://user-images.githubusercontent.com/99143567/172036473-30a15844-4057-49c1-b6ad-971dad98dee0.gif)
 
 **--soft**
 
@@ -43,7 +43,7 @@ git reset --soft <id del commit>
 
 Podemos observar en el siguiente video cómo funciona este comando:
 
-g2 
+![g2](https://user-images.githubusercontent.com/99143567/172036499-54437f43-526b-406e-8897-cbbe0797de04.gif)
 
 **--hard**
 
@@ -55,11 +55,11 @@ git reset --hard <id del commit>
 
 Podemos observar en el siguiente video cómo funciona este comando:
 
-g3
+![g3](https://user-images.githubusercontent.com/99143567/172036519-546a9546-d30e-4c53-97a4-b1d406085097.gif)
 
 Puedes observar un resumen en esta imagen:
 
-i2
+![i2](https://user-images.githubusercontent.com/99143567/172036562-5f666c40-92e5-4c43-8b29-65632fc05dfc.png)
 
 ## Git reflog
 
@@ -75,7 +75,7 @@ Entonces como ejercicio lo que haremos es:
 
 2.-Usaremos git reset --hard para regresar a ese punto donde si teníamos los commits.
 
-g4
+![g4](https://user-images.githubusercontent.com/99143567/172036566-6674e9db-6035-4c84-b669-e8da8ee316b7.gif)
 
 ## Git revert
 
@@ -93,7 +93,7 @@ i3
 
 Ahora vamos a deshacer un commit con git revert:
 
-g5
+![g5](https://user-images.githubusercontent.com/99143567/172036575-d6a23aaf-3e0a-43dc-bb5b-f247775eaef6.gif)
 
 Podemos observar cómo git revert, hace lo contrario al commit que queremos eliminar.
 
