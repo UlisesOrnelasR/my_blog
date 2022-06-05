@@ -44,9 +44,9 @@ Este repositorio que se crea es independiente del original, es una copia que pod
 
 ![i3](https://user-images.githubusercontent.com/99143567/172074638-4c22a0f9-8675-4951-bb02-c5bec8cdc5ac.png)
 
-Para hacer un fork de algún proyecto, simplemente nos metemos al repositorio de ese proyecto y damos click en **fork**.
-
 ![i4](https://user-images.githubusercontent.com/99143567/172075353-fae4e1dd-c432-4309-88ff-798234f5a7ad.png)
+
+Para hacer un fork de algún proyecto, simplemente nos metemos al repositorio de ese proyecto y damos click en **fork**.
 
 ![g2](https://user-images.githubusercontent.com/99143567/172074643-0b95d02b-d8c2-41bd-a2a5-98d40164a94f.gif)
 
