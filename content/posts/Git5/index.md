@@ -41,7 +41,7 @@ Cuando hacemos un fork, lo que sucede es que se crea una copia para nosotros en 
 
 Este repositorio que se crea es independiente del original, es una copia que podemos modificar, borrar, corromper, reescribir los commits, etc. Somos los dueños de esa copia.
 ![i3](https://user-images.githubusercontent.com/99143567/172074638-4c22a0f9-8675-4951-bb02-c5bec8cdc5ac.png)
-![i4](https://user-images.githubusercontent.com/99143567/172075353-fae4e1dd-c432-4309-88ff-798234f5a7ad.png)
+![i6](https://user-images.githubusercontent.com/99143567/172075807-3153da15-4b05-4c2e-acc3-1028a3e57367.png)
 Para hacer un fork de algún proyecto, simplemente nos metemos al repositorio de ese proyecto y damos click en **fork**.
 
 ![g2](https://user-images.githubusercontent.com/99143567/172074643-0b95d02b-d8c2-41bd-a2a5-98d40164a94f.gif)
