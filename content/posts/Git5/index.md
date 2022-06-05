@@ -46,6 +46,8 @@ Este repositorio que se crea es independiente del original, es una copia que pod
 
 Para hacer un fork de algún proyecto, simplemente nos metemos al repositorio de ese proyecto y damos click en **fork**.
 
+i4
+
 ![g2](https://user-images.githubusercontent.com/99143567/172074643-0b95d02b-d8c2-41bd-a2a5-98d40164a94f.gif)
 
 Podemos observar que se creó un repositorio exactamente igual que el original, somos libres de hacer lo que queramos con el.
