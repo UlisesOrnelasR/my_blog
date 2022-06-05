@@ -89,7 +89,7 @@ git revert
 
  Quizas puedas entenderlo mejor con esta imagen:
 
-i3
+![i3](https://user-images.githubusercontent.com/99143567/172036689-475a0c62-244b-4437-904b-19f3dfe1bb96.png)
 
 Ahora vamos a deshacer un commit con git revert:
 
