@@ -128,6 +128,14 @@ git checkout -b ＜branch name＞ ＜existing-branch＞
 
 ![g6](https://user-images.githubusercontent.com/99143567/172110262-d58414e2-27f9-4c77-a5c4-2aad0af775c6.gif)
 
+**Crear otra rama en base a otra e ir a ella al instante**
+
+Podemos subir nuestra nueva rama al repositorio remoto usando el comando push y la rama que necesitamos:
+
+```
+git push -u origin ＜branch name＞
+```
+
 #### Hice este post con estos comandos juntos, porque se usan mucho entre ellos, mas adelante seguiremos incorporando más comando, y viendo como es útil usarlo en conjunto. 🚀
 
 *Deseando que te encuentres bien, te saluda Ulises🤵...*
