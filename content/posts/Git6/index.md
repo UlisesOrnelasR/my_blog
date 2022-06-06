@@ -15,7 +15,7 @@ Git resuelve este problema, incorporando ramas o branches, estas nos ayudaran a 
 
 Después de tener mi funcionalidad, puedo unir los cambios con la rama principal, pero eso lo veremos más adelante en otro post...🧐
 
-i1
+![i1](https://user-images.githubusercontent.com/99143567/172110072-e35f2c68-8ff3-4c2f-a368-26e094bdf51b.png)
 
 **Estos son algunos comandos importantes que deberías conocer: **
 
@@ -43,7 +43,7 @@ git branch -a -v
 git branch <branch name>
 ```
 
-g1
+![g1](https://user-images.githubusercontent.com/99143567/172110095-672e4c9a-0ac8-4d8b-8550-a5661d3d8713.gif)
 
 Podemos modificar el nombre de una rama:
 
@@ -72,7 +72,7 @@ Aun así, no es recomendable realizar modificaciones cuando estemos visitando un
 
 Durante el desarrollo de un proyecto vemos a **HEAD** apuntando hacia la rama principal, u otra rama local, pero lo que hacemos cuando usamos git checkout de algún commit, lo que sucede es que *HEAD* ya no apunta a una rama, apunta directamente al commit, a este estado se le llama *detached HEAD*.
 
-i2
+![i2](https://user-images.githubusercontent.com/99143567/172110143-0c5a76d3-428d-4eb2-a139-cc46b33f4e7d.png)
 
 El comando que usaremos es:
 
@@ -82,7 +82,7 @@ git checkout <id del commit>
 
 En este video podemos observar cómo volvemos al pasado, en nuestro working directory los archivos y carpetas están tal cual como estaban en ese commit, junto con el historial de commits.
 
-g2
+![g2](https://user-images.githubusercontent.com/99143567/172110168-ee08cc9e-8c73-4f72-a0fd-4a256d268f11.gif)
 
 Ten cuidado de no realizar cambios, recuerda que lo usamos con fines de observación solamente.
 
@@ -94,7 +94,7 @@ Fácil, volvemos a usar git checkout pero hacemos que apunte a la rama master, p
 git checkout master
 ```
 
-g3
+![g3](https://user-images.githubusercontent.com/99143567/172110194-ad18c003-18f9-48c1-aab4-1f57d931ad48.gif)
 
 **Cambiar a otra rama**
 
@@ -106,7 +106,7 @@ git checkout <branch name>
 
 Esto hará que el *HEAD* apunte al último commit de la rama seleccionada.
 
-g4
+![g4](https://user-images.githubusercontent.com/99143567/172110225-9850b9f4-538a-431d-92c3-0ccbe19e915d.gif)
 
 **Crear otra rama e ir a ella al instante**
 
@@ -116,7 +116,7 @@ Para crear una nueva rama y dirigirnos a ella con un solo comando podemos usar l
 git checkout -b <branch name>
 ```
 
-g5
+![g5](https://user-images.githubusercontent.com/99143567/172110250-24dfe675-cd90-44de-8284-6f584507eb1e.gif)
 
 **Crear otra rama en base a otra e ir a ella al instante**
 
@@ -126,7 +126,7 @@ De manera predeterminada *git checkout -b* se basará en la rama que este *HEAD*
 git checkout -b ＜branch name＞ ＜existing-branch＞
 ```
 
-g6
+![g6](https://user-images.githubusercontent.com/99143567/172110262-d58414e2-27f9-4c77-a5c4-2aad0af775c6.gif)
 
 #### Hice este post con estos comandos juntos, porque se usan mucho entre ellos, mas adelante seguiremos incorporando más comando, y viendo como es útil usarlo en conjunto. 🚀
 
