@@ -20,7 +20,7 @@ Pudieras creer que es similar que descargar el proyecto, pero no, aquí las dife
 Puedes usar el comando de la siguiente manera:
 
 ```
-git clone <url>
+git clone <remote-repo-url>
 ```
 
 1.- Nos dirigimos al repositorio del cual queremos descargar el proyecto
@@ -32,6 +32,12 @@ git clone <url>
 4.- Escribimos git clone y justo después la url, presionamos enter y es todo, ya tenemos el proyecto descargado, junto con su historial de commit, listo para realizar cambios y subirlos al repositorio remoto.
 
 ![g1](https://user-images.githubusercontent.com/99143567/172074631-5110e458-abc7-4850-92d1-10e1267d0c60.gif)
+
+Si lo que deseas es solamente clonar una sola rama y descargarla en tu repo local, puedes hacerlo con el siguiente comando:
+
+```
+git clone --branch <nombre del branch> <remote-repo-url>
+```
 
 ## Fork
 
