@@ -1,6 +1,6 @@
 +++
 title = "Git: Comandos (git checkout, git branch)"
-date = "2022-06-05"
+date = "2022-06-06"
 +++
 
 Para trabajar en equipo no es suficiente con los comandos que hemos visto, en este post revisaremos los usos de *git checkout* y *git branch* para darnos cuenta de su importancia...🐤
@@ -17,9 +17,9 @@ Después de tener mi funcionalidad, puedo unir los cambios con la rama principal
 
 ![i1](https://user-images.githubusercontent.com/99143567/172110072-e35f2c68-8ff3-4c2f-a368-26e094bdf51b.png)
 
-**Estos son algunos comandos importantes que deberías conocer: **
+**Estos son algunos comandos importantes que deberías conocer:**
 
-**Mirar que ramas hay en el repositorio local: **
+**Mirar que ramas hay en el repositorio local:**
 
 ```
 git branch
@@ -37,7 +37,7 @@ Mirar que ramas hay tanto en el repositorio local como en el remoto, además mos
 git branch -a -v
 ```
 
-**Puedes crear una nueva rama con el comando: **
+**Puedes crear una nueva rama con el comando:**
 
 ```
 git branch <branch name>
@@ -66,7 +66,7 @@ git branch -D <branch name>
 
 Git checkout es un comando muy interesante, puede hacer múltiples cosas.
 
-**Podemos visitar al pasado, entre los commits de nuestro proyecto. **
+**Podemos visitar al pasado, entre los commits de nuestro proyecto.**
 
 Aun así, no es recomendable realizar modificaciones cuando estemos visitando un commit, solamente es aconsejable estar de visitante para revisar como estaba el proyecto en ese punto.
 
@@ -88,7 +88,7 @@ Ten cuidado de no realizar cambios, recuerda que lo usamos con fines de observac
 
 Con el comando anterior, nos quedamos observando un commit del pasado, pero ¿cómo podemos volver a como esta nuestro proyecto actualmente?
 
-Fácil, volvemos a usar git checkout pero hacemos que apunte a la rama master, por defecto nos posicionara en el último commit que hayamos hecho:
+Fácil, volvemos a usar git checkout pero hacemos que apunte a la rama master, por defecto nos posicionara en el último commit que hayamos hecho en la rama master:
 
 ```
 git checkout master
