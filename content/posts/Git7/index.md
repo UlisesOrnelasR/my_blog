@@ -33,7 +33,7 @@ En caso de que git no pueda hacer la fusión tendrá que resolver los conflictos
 
 ![i1](https://user-images.githubusercontent.com/99143567/172264464-534cbf06-5e39-415a-815e-78e64c43ffd8.png)
 
-**Git fetch**es un comando que nos permite saber si hubo cambios en el repositorio remoto, solamente revisara si hubo cambios, hará que nuestro repositorio local se actualice con la última información, pero no hace que los podamos tener en nuestro espacio de trabajo, los mantendrá como ocultos.
+**Git fetch** es un comando que nos permite saber si hubo cambios en el repositorio remoto, solamente revisara si hubo cambios, hará que nuestro repositorio local se actualice con la última información, pero no hace que los podamos tener en nuestro espacio de trabajo, los mantendrá como ocultos.
 
 El comando de git fetch es:
 ```
