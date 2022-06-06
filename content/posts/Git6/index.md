@@ -108,6 +108,8 @@ Esto hará que el *HEAD* apunte al último commit de la rama seleccionada.
 
 ![g4](https://user-images.githubusercontent.com/99143567/172110225-9850b9f4-538a-431d-92c3-0ccbe19e915d.gif)
 
+![i3](https://user-images.githubusercontent.com/99143567/172220402-941249c5-165f-4c34-8d94-0d0993337484.png)
+
 **Crear otra rama e ir a ella al instante**
 
 Para crear una nueva rama y dirigirnos a ella con un solo comando podemos usar lo siguiente:
