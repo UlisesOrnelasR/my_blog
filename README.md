@@ -14,4 +14,6 @@
 - [Git: Comandos (git reset, git reflog, git revert)](https://ulisesornelasr.github.io/my_blog/posts/git4/)
 - [Git y GitHub: Comandos (git clone, fork)](https://ulisesornelasr.github.io/my_blog/posts/git5/)
 - [Git: Comandos (git checkout, git branch)](https://ulisesornelasr.github.io/my_blog/posts/git6/)
+- [Git: Comandos (git fetch, git merge, git pull)](https://ulisesornelasr.github.io/my_blog/posts/git7/)
+- [Git: Comandos (git rebase, git merge)](https://ulisesornelasr.github.io/my_blog/posts/git8/)
 
