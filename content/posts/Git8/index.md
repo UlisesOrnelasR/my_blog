@@ -11,7 +11,7 @@ En este post veremos el uso de git rebase, un comando que nos ayuda a mover una 
 
 Ya hemos trabajado con ramas y vimos como fusionarla con otra usando git merge, pero en esta ocasión lo que haremos es usar git rebase.
 
-g1
+![g1](https://user-images.githubusercontent.com/99143567/172306966-a529b9c5-fa9b-4514-82a9-0b6aaf916f6b.gif)
 
 Este comando **puede mover una rama en su totalidad**, hacia otro punto del árbol.
 
@@ -35,11 +35,11 @@ Un ejemplo de rebase es:
 git rebase master
 ```
 
-g2
+![g2](https://user-images.githubusercontent.com/99143567/172306986-28e60a05-bfff-4a18-bed5-d244727145a2.gif)
 
 Gráficamente esto fue lo que sucedió, y lo que sucedería si usáramos *git merge*:
 
-i1
+![i1](https://user-images.githubusercontent.com/99143567/172307017-33d854de-851f-4580-920e-f6bd65ed2d94.gif)
 
 Podemos notar que el orden como se acomodaron los commits **fue diferente**, y si usamos git merge se nos creara un commit extra.
 
