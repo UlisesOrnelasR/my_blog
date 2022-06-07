@@ -19,10 +19,6 @@ Tanto como git merge como git rebase son comandos utiles, sin embargo, tienen su
 
 **Usar git rebase es arriesgado**, ya que *reescribe el historial de commits*, si este comando se hace en el repositorio remoto, puede generar conflictos a la hora que otros desarrolladores intenten sacar los últimos cambios del repositorio remoto.
 
-```
-git rebase master
-```
-
 Un ejemplo de rebase es:
 
 1.- Creamos una nueva rama *(rama2)* y realizamos un nueva funcionalidad, añadiendo commits.
@@ -39,7 +35,7 @@ git rebase master
 
 Gráficamente esto fue lo que sucedió, y lo que sucedería si usáramos *git merge*:
 
-![i1](https://user-images.githubusercontent.com/99143567/172307017-33d854de-851f-4580-920e-f6bd65ed2d94.gif)
+![git7](https://user-images.githubusercontent.com/99143567/172307553-85784d11-0aa4-4e08-aad7-26c19c7fd2c6.png)
 
 Podemos notar que el orden como se acomodaron los commits **fue diferente**, y si usamos git merge se nos creara un commit extra.
 
