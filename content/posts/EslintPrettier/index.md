@@ -126,6 +126,8 @@ Para solucionarlo tenemos que **instalar un paquete**, lo haremos con el siguien
 npm i -D eslint-config-prettier
 ````
 
+![g7](https://user-images.githubusercontent.com/99143567/174510247-e12e0908-2072-4260-a5f6-5f42202706e6.gif)
+
 Ahora las reglas de Prettier estarán sobre las de Eslint, esto quiere decir que cuando haya una confusión, hará lo que se haya establecido en Prettier.
 
 ## Configurando comandos para poder ejecutar ESLint y Prettier desde la terminal🔵
