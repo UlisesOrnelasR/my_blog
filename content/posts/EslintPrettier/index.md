@@ -81,7 +81,7 @@ Para solucionar este problema dentro del archivo de configuración de eslint, *n
 
 ![i6](https://user-images.githubusercontent.com/99143567/174501115-967f3ba7-9f6c-4667-8c7d-5005be4f66a9.JPG)
 
-#### Solución 'var'is missing in props validationeslint(react/prop-types)
+#### Solución 'var' is missing in props validationeslint(react/prop-types)
 
 Agregaremos la siguiente regla al archivo de configuración de Eslint para desactivarla:
 
