@@ -112,7 +112,7 @@ Este error sucede porque React usa babel, para resolverlo tenemos que hacer lo s
 npm install --save-dev babel-jest @babel/core @babel/preset-env
 ```
 
-2.-Crear un archivo en la raiz del proyecto llamado *babel.config.js* y dentro el siguiente código:
+2.-Crear un archivo en la raiz del proyecto llamado **babel.config.js** y dentro el siguiente código:
 
 ```
 module.exports = {
