@@ -20,17 +20,17 @@ Gracias a las pruebas podemos corregir bugs o errores, antes de desplegar la apl
 
 Las pruebas unitarias están orientadas a pequeñas funcionalidades de un componente en específico.
 
-i2
+![i2](https://user-images.githubusercontent.com/99143567/175169220-acba6646-6cb1-4523-86b7-3730ca53ddcc.png)
 
 ## Pruebas de Integración
 
 Las pruebas de integración están orientadas a probar como interactúan los componentes entre sí, a probar su comportamiento.
 
-i3
+![i3](https://user-images.githubusercontent.com/99143567/175169265-86143481-df6f-4f20-8ea4-b94fcd9ebff3.png)
 
 ## Integrar Testing a tu proyecto de React js
 
-i1
+![i1](https://user-images.githubusercontent.com/99143567/175169273-bfead16f-9cf3-4ecc-b911-dc716c0feec2.png)
 
 #### Instalando jest🔵
 
@@ -42,7 +42,7 @@ Lo primero que tenemos que hacer es **instalarlo**, para ello usamos el siguient
 npm install --save-dev jest
 ````
 
-g1
+![g1](https://user-images.githubusercontent.com/99143567/175169289-d6e2139b-592d-44c2-a488-804e10bcad93.gif)
 
 #### Añadiendo script de jest 🔵
 
@@ -70,7 +70,7 @@ Seguido de haber instalado el paquete, en nestro *package.json*, agregaremos:
 
 En mi caso usare la segunda opción.
 
-g2
+![g2](https://user-images.githubusercontent.com/99143567/175169473-aa144ae5-663b-4ae1-861d-dfd6f3ad5cc1.gif)
 
 Ya podemos ejecutar jest en la terminal usando el comando:
 
@@ -88,7 +88,7 @@ Puedes acomodar tus archivos de test como quieras, yo lo hare de la siguiente fo
 
 A diferencia que los archivos tendrán una extensión **.test.js** o **.test.jsx**
 
-i4
+![i4](https://user-images.githubusercontent.com/99143567/175169592-b50c4524-6806-4e3c-99f7-f01328c024e0.JPG)
 
 #### Agregando dependencia para ayudarnos con los comandos de Jest🔵
 
@@ -98,11 +98,11 @@ Instalaremos este paquete que nos ayudara a no tener que memorizar todos los com
 npm install --save-dev @types/jest
 ```
 
-g3
+![g3](https://user-images.githubusercontent.com/99143567/175169605-f3d64b0b-91fb-4037-981b-878e60d2e2ba.gif)
 
 #### Solucionando error 🔵
 
-i5
+![i5](https://user-images.githubusercontent.com/99143567/175169614-c9b78e19-5c64-4978-8863-63569e5e671e.JPG)
 
 Este error sucede porque React usa babel, para resolverlo tenemos que hacer lo siguiente:
 
@@ -120,13 +120,13 @@ module.exports = {
 };
 ```
 
-g4
+![g4](https://user-images.githubusercontent.com/99143567/175169627-6a8966b4-29f1-4d6c-a735-fb805ea92ded.gif)
 
 #### Estructura de una prueba 🔵
 
 Después de realizar todos los pasos anteriores, ya podemos escribir nuestras pruebas.
 
-i6
+![i6](https://user-images.githubusercontent.com/99143567/175169644-857df844-1f84-44d6-af46-9f0078d9d346.JPG)
 
 **🚨Recuerda no confiar en una prueba que no has visto fallar🚨**
 
@@ -138,9 +138,9 @@ npm run test
 
 Reescribimos el código para que pase la prueba y guardamos los cambios, automáticamente se ejecutara la prueba gracias a la configuración que hicimos con *jest --watchAll*.
 
-i7
+![i7](https://user-images.githubusercontent.com/99143567/175169672-132a8848-4ccd-42f4-af53-32526e61b219.JPG)
 
-i8
+![i8](https://user-images.githubusercontent.com/99143567/175169679-5ad5cc47-8ba4-4233-80c7-07f885197684.JPG)
 
 Listo ya puedes escribir tus pruebas en React :).
 
