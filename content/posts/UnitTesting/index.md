@@ -1,5 +1,5 @@
 +++
-title = "Integrar Testing con a tu proyecto de React JS"
+title = "Integrar Testing a tu proyecto de React JS con Jest"
 date = "2022-06-22"
 +++
 
