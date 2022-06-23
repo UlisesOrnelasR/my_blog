@@ -3,30 +3,20 @@ date = "2016-11-05T21:05:33+05:30"
 title = "About"
 +++
 
-A minimal, responsive and light theme for Hugo inspired by Linux console. 
+En este apartado puedes encontrar mis redes sociales para que puedas contactarme:
 
-![Console](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true)
+## [Instagram](https://www.instagram.com/ulises_ornelasr/)
 
-## Installation
+i1
 
-```
-$ mkdir themes
-$ cd themes
-$ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console
-```
-    
-See the [Hugo documentation](https://gohugo.io/themes/installing/) for more information.
+## [Twitter](https://twitter.com/UlisesOrnelass)
 
-## Configuration
+i2
 
-Set theme parameter in your config file:
+## [GitHub](https://github.com/UlisesOrnelasR)
 
-```
-theme = "hugo-theme-console"
-```
+i3
 
-## License
+## [LinkedIn](https://www.linkedin.com/in/ulises-ornelas/)
 
-Copyright © 2020 [Marcin Mierzejewski](https://mrmierzejewski.com/)
-
-The theme is released under the MIT License. Check the [original theme license](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md) for additional licensing information.
+i4
