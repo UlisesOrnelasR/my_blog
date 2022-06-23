@@ -40,7 +40,7 @@ Lo primero que tenemos que hacer es **instalarlo**, para ello usamos el siguient
 
 ```
 npm install --save-dev jest
-````
+```
 
 ![g1](https://user-images.githubusercontent.com/99143567/175169289-d6e2139b-592d-44c2-a488-804e10bcad93.gif)
 
@@ -56,7 +56,7 @@ Seguido de haber instalado el paquete, en nestro *package.json*, agregaremos:
     "test": "jest"
   }
 }
-````
+```
 
 **b)** Si queremos estar ejecutando continuamente todas las pruebas cada que hagamos un cambio, o solamente estar al pendiente de una prueba cada qeu se hagan cambios:
 
@@ -66,7 +66,7 @@ Seguido de haber instalado el paquete, en nestro *package.json*, agregaremos:
     "test": "jest --watchAll"
   }
 }
-````
+```
 
 En mi caso usare la segunda opción.
 
@@ -102,7 +102,7 @@ npm install --save-dev @types/jest
 
 #### Confiuraciones adicionales y añadiendo React Testing Library para testear el DOM🐙🔵
 
-🛸Añadimos la dependencia de React Testing Library a nuestro proyect:
+🛸Añadimos la dependencia de React Testing Library a nuestro proyecto:
 
 ```
 npm install --save-dev @testing-library/react
@@ -115,7 +115,6 @@ npm install jest-environment-jsdom
 
 🛸Crear un archivo en la raiz del proyecto llamado **jest.config.js** y dentro el siguiente codigo:
 
-
 ```
 module.exports = {
     testEnvironment: 'jest-environment-jsdom',
@@ -125,13 +124,11 @@ module.exports = {
 
 🛸Añadimos la siguiente dependencia:
 
-
 ```
 npm install whatwg-fetch --save
 ```
 
-🛸Creamos un archivo en la raiz del proyecto llamado **jest.setup.js** y dentro el siguiente codigo:
-
+🛸Creamos un archivo en la raíz del proyecto llamado **jest.setup.js** y dentro el siguiente código:
 
 ```
 import 'whatwg-fetch';
@@ -147,7 +144,7 @@ npm install --save-dev @babel/preset-react
 npm install --save-dev babel-jest @babel/core @babel/preset-env
 ```
 
-🛸 Crear un archivo en la raiz del proyecto llamado **babel.config.js** y dentro el siguiente código:
+🛸 Crear un archivo en la raíz del proyecto llamado **babel.config.js** y dentro el siguiente código:
 
 ```
 module.exports = {
@@ -158,7 +155,7 @@ module.exports = {
 };
 ```
 
-Al final de todas las configuraciones, asi deberian quedar los archivos.
+Al final de todas las configuraciones, así deberían quedar los archivos.
 
 i0
 
