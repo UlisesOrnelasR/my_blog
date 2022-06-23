@@ -1,9 +1,9 @@
 +++
-title = "Integrar Testing a tu proyecto de React JS con Jest"
+title = "Integrar Testing a tu proyecto de React JS con Jest y React Testing Library"
 date = "2022-06-22"
 +++
 
-En esta publicación veremos como integrar pruebas de unidad a nuestro proyecto de React JS, utilizando [JEST](https://jestjs.io/)🃏...
+En esta publicación veremos como integrar pruebas de unidad a nuestro proyecto de React JS, utilizando [JEST](https://jestjs.io/)🃏 y [React Testing Library](https://testing-library.com/)🐙...
 
 <!--more-->
 ## Unit Testing
@@ -100,27 +100,67 @@ npm install --save-dev @types/jest
 
 ![g3](https://user-images.githubusercontent.com/99143567/175169605-f3d64b0b-91fb-4037-981b-878e60d2e2ba.gif)
 
-#### Solucionando error 🔵
+#### Confiuraciones adicionales y añadiendo React Testing Library para testear el DOM🐙🔵
 
-![i5](https://user-images.githubusercontent.com/99143567/175169614-c9b78e19-5c64-4978-8863-63569e5e671e.JPG)
+🛸Añadimos la dependencia de React Testing Library a nuestro proyect:
 
-Este error sucede porque React usa babel, para resolverlo tenemos que hacer lo siguiente:
+```
+npm install --save-dev @testing-library/react
+```
 
-1.- Instalar un nuevo paquete:
+🛸Añadimos la siguiente dependencia:
+```
+npm install jest-environment-jsdom
+```
+
+🛸Crear un archivo en la raiz del proyecto llamado **jest.config.js** y dentro el siguiente codigo:
+
+
+```
+module.exports = {
+    testEnvironment: 'jest-environment-jsdom',
+    setupFiles: ['./jest.setup.js']
+}
+```
+
+🛸Añadimos la siguiente dependencia:
+
+
+```
+npm install whatwg-fetch --save
+```
+
+🛸Creamos un archivo en la raiz del proyecto llamado **jest.setup.js** y dentro el siguiente codigo:
+
+
+```
+import 'whatwg-fetch';
+```
+
+🛸 Instalamos estos paquetes necesarios para que no haya conflictos con React y Babel:
+
+```
+npm install --save-dev @babel/preset-react
+```
 
 ```
 npm install --save-dev babel-jest @babel/core @babel/preset-env
 ```
 
-2.-Crear un archivo en la raiz del proyecto llamado **babel.config.js** y dentro el siguiente código:
+🛸 Crear un archivo en la raiz del proyecto llamado **babel.config.js** y dentro el siguiente código:
 
 ```
 module.exports = {
-  presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+  presets: [
+    ['@babel/preset-env', { targets: { esmodules: true } }],
+    ['@babel/preset-react', {runtime: 'automatic'}]
+  ],
 };
 ```
 
-![g4](https://user-images.githubusercontent.com/99143567/175169627-6a8966b4-29f1-4d6c-a735-fb805ea92ded.gif)
+Al final de todas las configuraciones, asi deberian quedar los archivos.
+
+i0
 
 #### Estructura de una prueba 🔵
 
