@@ -17,5 +17,5 @@
 - [Git: Comandos (git fetch, git merge, git pull)](https://ulisesornelasr.github.io/my_blog/posts/git7/)
 - [Git: Comandos (git rebase, git merge)](https://ulisesornelasr.github.io/my_blog/posts/git8/)
 - [Crear un proyecto de React con VITE, y configurar ESLINT y PRETTIER](https://ulisesornelasr.github.io/my_blog/posts/eslintprettier/)
-- [Integrar Testing con a tu proyecto de React JS](https://ulisesornelasr.github.io/my_blog/posts/unittesting/)
+- [Integrar Testing a tu proyecto de React JS con Jest](https://ulisesornelasr.github.io/my_blog/posts/unittesting/)
 
