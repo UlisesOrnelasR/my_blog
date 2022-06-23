@@ -157,7 +157,7 @@ module.exports = {
 
 Al final de todas las configuraciones, así deberían quedar los archivos.
 
-i0
+![i0](https://user-images.githubusercontent.com/99143567/175424462-91cc1d32-0cf6-4eb9-bcca-a19015e313fc.JPG)
 
 #### Estructura de una prueba 🔵
 
