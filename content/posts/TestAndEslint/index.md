@@ -7,7 +7,7 @@ En este post resolveremos los conflictos que tenemos, ya al crear pruebas nos su
 
 <!--more-->
 ## Solucinando los conflictos
-i1
+![i1](https://user-images.githubusercontent.com/99143567/175790322-074bd984-b91c-4a98-9260-367ac96eb332.png)
 
 En este post iremos directo al grano...
 
