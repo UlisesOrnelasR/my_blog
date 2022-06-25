@@ -1,0 +1,44 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><title>Blog &lt;Ulises_Ornelas/>/my_blog/posts/testandeslint/</title><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="all,follow"><meta name=googlebot content="index,follow,snippet,archive"><link rel=stylesheet href=https://ulisesornelasr.github.io/my_blog/hugo-theme-console/css/terminal-0.7.2.min.css><link rel=stylesheet href=https://ulisesornelasr.github.io/my_blog/hugo-theme-console/css/animate-4.1.1.min.css><link rel=stylesheet href=https://ulisesornelasr.github.io/my_blog/hugo-theme-console/css/console.css><!--[if lt IE 9]><script src=https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script>
+<script src=https://oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]--><meta property="og:title" content="3.- Solucionando conflictos entre el Testing y Eslint"><meta property="og:description" content><meta property="og:type" content="article"><meta property="og:url" content="https://ulisesornelasr.github.io/my_blog/posts/testandeslint/"><meta property="article:published_time" content="2022-06-25T00:00:00+00:00"><meta name=twitter:title content="3.- Solucionando conflictos entre el Testing y Eslint"><meta name=twitter:description content="En este post resolveremos los conflictos que tenemos, ya al crear pruebas nos surgen errores en Eslint&mldr;"></head><body class=terminal><div class=container><div class=terminal-nav><header class=terminal-logo><div class="logo terminal-prompt"><a href=https://ulisesornelasr.github.io/my_blog/ class="no-style site-name">Blog &lt;Ulises_Ornelas/></a>:~#
+<a href=https://ulisesornelasr.github.io/my_blog/posts>posts</a>/<a href=https://ulisesornelasr.github.io/my_blog/posts/testandeslint>testandeslint</a>/</div></header><nav class=terminal-menu><ul vocab="https://schema.org/" typeof="BreadcrumbList"><li><a href=https://ulisesornelasr.github.io/my_blog/about/ typeof="ListItem">about/</a></li><li><a href=https://ulisesornelasr.github.io/my_blog/posts/ typeof="ListItem">posts/</a></li><li><a href=https://ulisesornelasr.github.io/my_blog/photos/ typeof="ListItem">photos/</a></li></ul></nav></div></div><div class="container animated zoomIn fast"><h1>3.- Solucionando conflictos entre el Testing y Eslint</h1>Jun. 25, 2022<br><br><p>En este post resolveremos los conflictos que tenemos, ya al crear pruebas nos surgen errores en Eslint&mldr;</p><h2 id=solucinando-los-conflictos>Solucinando los conflictos</h2><p>i1</p><p>En este post iremos directo al grano&mldr;</p><h4 id=solucinando-conflictos-de-eslint-y-jest>Solucinando conflictos de EsLint y Jest</h4><p>Primero solucionamos los conflictos que hay entre Jest y Eslint, para ello haremos lo siguiente:</p><p>🛸Instalamos el siguiente paquete:</p><pre tabindex=0><code>npm install --dev eslint eslint-plugin-jest
+</code></pre><p>🛸En el archivo <strong>.eslintrc</strong> añadimos el plugin de jest:</p><pre tabindex=0><code>plugins: [&#39;jest&#39;],
+</code></pre><p>🛸En la sección de reglas agregamos las siguientes:</p><pre tabindex=0><code>rules: {
+  		&#39;jest/no-disabled-tests&#39;: &#39;warn&#39;,
+  		&#39;jest/no-focused-tests&#39;: &#39;error&#39;,
+  		&#39;jest/no-identical-title&#39;: &#39;error&#39;,
+  		&#39;jest/prefer-to-have-length&#39;: &#39;warn&#39;,
+  		&#39;jest/valid-expect&#39;: &#39;error&#39;,
+	}
+</code></pre><p>🛸Marcamos como <strong>true</strong> las variables de entorno de Jest</p><pre tabindex=0><code>env: {
+		&#39;jest/globals&#39;: true,
+	}
+</code></pre><h4 id=solucinando-conflictos-de-eslint-y-testing-library>Solucinando conflictos de EsLint y Testing Library</h4><p>🛸Instalamos el siguiente paquete:</p><pre tabindex=0><code>npm install --save-dev eslint-plugin-testing-library
+</code></pre><p>🛸En el archivo <strong>.eslintrc</strong> añadimos el plugin de testing-library:</p><pre tabindex=0><code>plugins: [&#39;testing-library&#39;],
+</code></pre><p>🛸En la sección de reglas agregamos las siguientes:</p><pre tabindex=0><code>rules: {
+    &#39;testing-library/await-async-query&#39;: &#39;error&#39;,
+    &#39;testing-library/no-await-sync-query&#39;: &#39;error&#39;,
+    &#39;testing-library/no-debugging-utils&#39;: &#39;warn&#39;,
+    &#39;testing-library/no-dom-import&#39;: &#39;off&#39;,
+  }
+</code></pre><h4 id=ejecutando-plugin-eslint-plugin-testing-library-en-archivos-de-prueba>Ejecutando plugin eslint-plugin-testing-library en archivos de prueba</h4><p>Posiblemente al ejecutar <strong>npm run lint</strong> tengamos errores, para corregir estos errores haremos que <em>eslint-plugin-testing-library</em> solo se ejecute en los archivos de prueba.</p><p>🛸En el archivo <strong>.eslintrc</strong> en la sección de extends añadimos lo siguiente():</p><pre tabindex=0><code>extends: [
+		&#39;standard&#39;,
+		&#39;plugin:prettier/recommended&#39;
+	],
+</code></pre><p>🛸En la seccion de plugins agregamos <em>react-hooks</em>:</p><pre tabindex=0><code>plugins: [&#39;react-hooks&#39;],
+</code></pre><p>🛸Activamos que <em>eslint-plugin-testing-library</em> solo funcione en archivos de testing agregando lo siguiente en el archivo <strong>.eslintrc</strong> debajo de los plugins:</p><pre tabindex=0><code>overrides: [
+    {
+      // 3) Now we enable eslint-plugin-testing-library rules or preset only for matching testing files!
+      files: [&#39;**/__tests__/**/*.[jt]s?(x)&#39;, &#39;**/?(*.)+(spec|test).[jt]s?(x)&#39;],
+      extends: [&#39;plugin:testing-library/react&#39;],
+    },
+  ],
+</code></pre><p>🛸Finalmente ejecutamos los siguiente comandos en la consola:</p><pre tabindex=0><code>npm install eslint-plugin-prettier@latest --save-dev
+</code></pre><pre tabindex=0><code>npm install eslint-plugin-react-hooks@latest --save-dev
+</code></pre><p>Listo finalmente podemos ejecutar nuestros comandos sin conflictos:</p><pre tabindex=0><code>npm run format
+</code></pre><pre tabindex=0><code>npm run test
+</code></pre><pre tabindex=0><code>npm run lint
+</code></pre><h4 id=en-este-blog-resolvimos-los-conflictos-que-habia-en-el-testing-y-eslint->En este blog resolvimos los conflictos que habia en el Testing y Eslint. 🚀</h4><p><em>Deseando que te encuentres bien, te saluda Ulises🤵&mldr;</em>
+<em>Sígueme en mis redes</em>
+<a href=https://github.com/UlisesOrnelasR>GitHub</a>
+<a href=https://www.linkedin.com/in/ulises-ornelas/>LinkedIn</a>
+<a href=https://twitter.com/UlisesOrnelass>Twitter</a></p><div class=footer>| Copyright © 2022 <b>All Rights Reserved</b> @UlisesOrnelass |</div></div></body></html>
