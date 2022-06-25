@@ -3,7 +3,7 @@ title = "3.- Solucionando conflictos entre el Testing y Eslint"
 date = "2022-06-25"
 +++
 
-En este post resolveremos los conflictos que tenemos, ya al crear pruebas nos surgen errores en Eslint...
+En este post resolveremos los conflictos que tenemos, ya que al añadir EsLint surgen inconvenientes...
 
 <!--more-->
 ## Solucinando los conflictos
