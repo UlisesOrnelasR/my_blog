@@ -11,7 +11,7 @@ En este post resolveremos los conflictos que tenemos, ya al crear pruebas nos su
 
 En este post iremos directo al grano...
 
-#### Solucinando conflictos de EsLint y Jest
+#### Solucionando conflictos de EsLint y Jest
 
 Primero solucionamos los conflictos que hay entre Jest y Eslint, para ello haremos lo siguiente:
 
@@ -31,23 +31,23 @@ plugins: ['jest'],
 
 ```
 rules: {
-  		'jest/no-disabled-tests': 'warn',
-  		'jest/no-focused-tests': 'error',
-  		'jest/no-identical-title': 'error',
-  		'jest/prefer-to-have-length': 'warn',
-  		'jest/valid-expect': 'error',
-	}
+      'jest/no-disabled-tests': 'warn',
+      'jest/no-focused-tests': 'error',
+      'jest/no-identical-title': 'error',
+      'jest/prefer-to-have-length': 'warn',
+      'jest/valid-expect': 'error',
+  }
 ```
 
 🛸Marcamos como **true** las variables de entorno de Jest
 
 ```
 env: {
-		'jest/globals': true,
-	}
+    'jest/globals': true,
+  }
 ```
 
-#### Solucinando conflictos de EsLint y Testing Library
+#### Solucionando conflictos de EsLint y Testing Library
 
 🛸Instalamos el siguiente paquete:
 
@@ -80,12 +80,12 @@ Posiblemente al ejecutar **npm run lint** tengamos errores, para corregir estos 
 
 ```
 extends: [
-		'standard',
-		'plugin:prettier/recommended'
-	],
+    'standard',
+    'plugin:prettier/recommended'
+  ],
 ```
 
-🛸En la seccion de plugins agregamos *react-hooks*:
+🛸En la sección de plugins agregamos *react-hooks*:
 
 ```
 plugins: ['react-hooks'],
@@ -103,7 +103,7 @@ overrides: [
   ],
 ```
 
-🛸Finalmente ejecutamos los siguiente comandos en la consola:
+🛸Finalmente ejecutamos los siguientes comandos en la consola:
 
 ```
 npm install eslint-plugin-prettier@latest --save-dev
@@ -127,7 +127,7 @@ npm run test
 npm run lint
 ```
 
-#### En este blog resolvimos los conflictos que habia en el Testing y Eslint. 🚀
+#### En este blog resolvimos los conflictos que había en el Testing y Eslint. 🚀
 
 *Deseando que te encuentres bien, te saluda Ulises🤵...*
 *Sígueme en mis redes*
