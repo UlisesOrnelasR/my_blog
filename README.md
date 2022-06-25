@@ -16,6 +16,7 @@
 - [Git: Comandos (git checkout, git branch)](https://ulisesornelasr.github.io/my_blog/posts/git6/)
 - [Git: Comandos (git fetch, git merge, git pull)](https://ulisesornelasr.github.io/my_blog/posts/git7/)
 - [Git: Comandos (git rebase, git merge)](https://ulisesornelasr.github.io/my_blog/posts/git8/)
-- [Crear un proyecto de React con VITE, y configurar ESLINT y PRETTIER](https://ulisesornelasr.github.io/my_blog/posts/eslintprettier/)
-- [Integrar Testing a tu proyecto de React JS con Jest y React Testing Library](https://ulisesornelasr.github.io/my_blog/posts/unittesting/)
+- [1.- Crear un proyecto de React con VITE, y configurar ESLINT y PRETTIER](https://ulisesornelasr.github.io/my_blog/posts/eslintprettier/)
+- [2.- Integrar Testing a tu proyecto de React JS con Jest y React Testing Library](https://ulisesornelasr.github.io/my_blog/posts/unittesting/)
+- [3.- Solucionando conflictos entre el Testing y Eslint](https://ulisesornelasr.github.io/my_blog/posts/testandeslint/)
 
