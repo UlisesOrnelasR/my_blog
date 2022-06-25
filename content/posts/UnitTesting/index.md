@@ -1,5 +1,5 @@
 +++
-title = "Integrar Testing a tu proyecto de React JS con Jest y React Testing Library"
+title = "2.- Integrar Testing a tu proyecto de React JS con Jest y React Testing Library"
 date = "2022-06-22"
 +++
 

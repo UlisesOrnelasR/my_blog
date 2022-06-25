@@ -1,5 +1,5 @@
 +++
-title = "Crear un proyecto de React con VITE, y configurar ESLINT y PRETTIER"
+title = "1.- Crear un proyecto de React con VITE, y configurar ESLINT y PRETTIER"
 date = "2022-06-19"
 +++
 
