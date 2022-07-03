@@ -38,6 +38,7 @@ export * from './Container'
 
 ![i2](https://user-images.githubusercontent.com/99143567/177057836-d42dd362-d7d6-401a-8f70-c64d4cd4d3c7.png)
 
+Postdata: Nótese que me falto un componente😅
 #### En este post dejamos nuestra aplicación más limpia usando los Archivos de Barril para hacer más fáciles las importaciones en React😉🚀
 
 *Deseando que te encuentres bien, te saluda Ulises🤵...*
