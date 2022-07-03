@@ -8,7 +8,9 @@ En este post veremos como implementar los Archivos de barril en React y al final
 <!--more-->
 ## Archivos de Barril📁📚
 
-Esta funcionalidad es propia de React y también puede ser aplicada en TypeScript, la finalidad es que todos los componentes estén **centralizados**.
+i3
+
+Esta funcionalidad es propia de Javascript y también puede ser aplicada en TypeScript, la finalidad es que todos los componentes estén **centralizados**.
 
 Veremos como podemos hacer esto en un proyecto de React, que tengo preparado.
 
