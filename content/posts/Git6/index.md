@@ -1,6 +1,6 @@
 +++
 title = "Git: Comandos (git checkout, git branch)"
-date = "2023-04-23"
+date = "2023-04-18"
 +++
 
 Para trabajar en equipo no es suficiente con los comandos que hemos visto, en este post revisaremos los usos de _git checkout_ y _git branch_ para darnos cuenta de su importancia...🐤
