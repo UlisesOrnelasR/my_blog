@@ -1,14 +1,15 @@
 +++
 title = "Git: Comandos (git restore)"
-date = "2022-06-04"
+date = "2022-04-17"
 +++
 
-Si lo quieres ahora es deshacer algún cambio, lo veremos en este post con algunos comandos que te pueden ayudar, cabe destacar que cada comando se usa para una cosa distinta...🐤
+Si necesitas deshacer algún cambio en Git, en este post encontrarás algunos comandos útiles que pueden ayudarte. Es importante tener en cuenta que cada comando se usa para una tarea específica...🐤
 
 <!--more-->
+
 ## Git restore
 
-Si realizaste modificaciones a un archivo, antes de subirlo a *stage area* y resulta que ya no quieres esas modificaciones y quieres regresar el archivo como estaba, puedes usar el comando:
+Si realizaste modificaciones a un archivo y deseas deshacerlas antes de subirlo al _stage area_, puedes usar el comando:
 
 ```
 git restore <file>
@@ -20,7 +21,7 @@ git restore <file>
 
 **--staged**
 
-Si accidentalmente subiste cambio a la etapa de stage, puedes descartarlo si así lo deseas, es decir, lo elimina del `stage area` pero deja intactas las modificaciones que le hiciste.
+Si accidentalmente agregaste cambios al _stage area_, puedes descartarlos con el siguiente comando. Esto eliminará los cambios del stage area, pero dejará intactas las modificaciones que le hiciste al archivo.
 
 ```
 git restore --staged <file>
@@ -32,22 +33,22 @@ git restore --staged <file>
 
 **--source**
 
-Si lo que queremos es restaurar un archivo a como estaba en un commit del pasado, lo que debemos hacer es usar el siguiente comando:
+Si deseas restaurar un archivo a como estaba en un commit pasado, usa el siguiente comando:
 
 ```
-git restore --source <id commit> <file>
+git restore --source <commit_id> <file>
 ```
 
-Nota que debemos especificar el commit, y el archivo que queremos restaurar a esa versión.
+Asegúrate de especificar el commit y el archivo que deseas restaurar a esa versión.
 
 ![i3](https://user-images.githubusercontent.com/99143567/172026793-420be507-604a-432f-a217-b9b9b450e8fc.png)
 
 ![g3](https://user-images.githubusercontent.com/99143567/172026794-9d693e7c-d35b-4f0f-a033-ce4829a3fecf.gif)
 
-#### Enhorabuena ahora ya sabes más comandos de git, conforme avancemos, seguiremos usando estos comandos e iremos conociendo más. 🚀
+#### ¡Felicidades, ahora sabes más comandos de Git! Conforme avancemos, seguiremos usando estos comandos y aprendiendo más. 🚀
 
-*Deseando que te encuentres bien, te saluda Ulises🤵...*
-*Sígueme en mis redes*
+_Deseando que te encuentres bien, te saluda Ulises🤵..._
+_Sígueme en mis redes_
 [GitHub](https://github.com/UlisesOrnelasR)
 [LinkedIn](https://www.linkedin.com/in/ulises-ornelas/)
 [Twitter](https://twitter.com/UlisesOrnelass)
