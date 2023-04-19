@@ -1,43 +1,43 @@
 +++
 title = "Git: Comandos (git checkout, git branch)"
-date = "2022-06-06"
+date = "2023-04-23"
 +++
 
-Para trabajar en equipo no es suficiente con los comandos que hemos visto, en este post revisaremos los usos de *git checkout* y *git branch* para darnos cuenta de su importancia...🐤
+Para trabajar en equipo no es suficiente con los comandos que hemos visto, en este post revisaremos los usos de _git checkout_ y _git branch_ para darnos cuenta de su importancia...🐤
 
 <!--more-->
 
 ## Git branch
 
-A la hora de que un equipo este trabajando en un proyecto, no podemos trabajar en una misma línea, en esencia sí, pero sería complicado, tendríamos conflictos.
+Cuando un equipo trabaja en un proyecto, no es conveniente trabajar en la misma línea de desarrollo, ya que puede generar conflictos. Git resuelve este problema incorporando ramas o branches, que nos ayudan a separar el flujo de trabajo.
 
-Git resuelve este problema, incorporando ramas o branches, estas nos ayudaran a separar el flujo de trabajo, es decir, si yo voy a trabajar en una nueva funcionalidad, creo una nueva rama para esa funcionalidad, la agrego y no estoy interfiriendo con el trabajo de los demás.
+Por ejemplo, si vamos a trabajar en una nueva funcionalidad, podemos crear una nueva rama para esa funcionalidad y trabajar en ella sin interferir con el trabajo de los demás.
 
-Después de tener mi funcionalidad, puedo unir los cambios con la rama principal, pero eso lo veremos más adelante en otro post...🧐
+Una vez que hayamos completado nuestra funcionalidad, podemos unir los cambios con la rama principal, pero veremos eso en detalle en otro post...🧐
 
 ![i1](https://user-images.githubusercontent.com/99143567/172110072-e35f2c68-8ff3-4c2f-a368-26e094bdf51b.png)
 
 **Estos son algunos comandos importantes que deberías conocer:**
 
-**Mirar que ramas hay en el repositorio local:**
+Ver las ramas en el repositorio local:
 
 ```
 git branch
 ```
 
-Mirar que ramas hay tanto en el repositorio local como en el remoto:
+Ver las ramas en el repositorio local como en el remoto:
 
 ```
 git branch -a
 ```
 
-Mirar que ramas hay tanto en el repositorio local como en el remoto, además mostrara información de los commits:
+Ver las ramas en el repositorio local y remoto, mostrando información de los commits:
 
 ```
 git branch -a -v
 ```
 
-**Puedes crear una nueva rama con el comando:**
+Crear una nueva rama con el comando:
 
 ```
 git branch <branch name>
@@ -45,50 +45,51 @@ git branch <branch name>
 
 ![g1](https://user-images.githubusercontent.com/99143567/172110095-672e4c9a-0ac8-4d8b-8550-a5661d3d8713.gif)
 
-Podemos modificar el nombre de una rama:
+También puedes cambiar el nombre de una rama existente::
 
 ```
 git branch -m <branch name> <new branch name>
 ```
 
-**Para eliminar una rama** podemos usar el siguiente comando, *debemos estar en otra rama para poder eliminarla*:
+**Eliminar una rama.** Ten en cuenta que debes estar en una rama diferente para poder eliminarla::
 
 ```
 git branch -d <branch name>
 ```
 
-Si realizamos cambios y no los fusionamos, nos devolverá un error, pero *podemos forzar el borrado de la rama con el comando*:
+Si has realizado cambios en la rama y no los has fusionado, te mostrará un error, pero puedes forzar el borrado de la rama con el siguiente comando:
 
 ```
 git branch -D <branch name>
 ```
+
 ## Git checkout
 
-Git checkout es un comando muy interesante, puede hacer múltiples cosas.
+Git checkout es un comando muy interesante que puede hacer varias cosas.
 
-**Podemos visitar al pasado, entre los commits de nuestro proyecto.**
+**Visitar el pasado, entre los commits de nuestro proyecto.**
 
-Aun así, no es recomendable realizar modificaciones cuando estemos visitando un commit, solamente es aconsejable estar de visitante para revisar como estaba el proyecto en ese punto.
+Sin embargo, no es recomendable realizar modificaciones cuando estamos visitando un commit, ya que solo deberíamos utilizarlo para revisar cómo estaba el proyecto en ese punto específico.
 
-Durante el desarrollo de un proyecto vemos a **HEAD** apuntando hacia la rama principal, u otra rama local, pero lo que hacemos cuando usamos git checkout de algún commit, lo que sucede es que *HEAD* ya no apunta a una rama, apunta directamente al commit, a este estado se le llama *detached HEAD*.
+Durante el desarrollo de un proyecto, vemos que _HEAD_ apunta a la rama principal o a otra rama local. Pero cuando usamos git checkout en un commit específico, lo que sucede es que _HEAD_ ya no apunta a una rama, sino directamente al commit. A este estado se le llama detached _HEAD_.
 
 ![i2](https://user-images.githubusercontent.com/99143567/172110143-0c5a76d3-428d-4eb2-a139-cc46b33f4e7d.png)
 
 El comando que usaremos es:
 
 ```
-git checkout <id del commit>
+git checkout <ID del commit>
 ```
 
-En este video podemos observar cómo volvemos al pasado, en nuestro working directory los archivos y carpetas están tal cual como estaban en ese commit, junto con el historial de commits.
+En este video podemos observar cómo volvemos al pasado en nuestro working directory. Los archivos y carpetas se muestran exactamente como estaban en ese commit, junto con el historial de commits.
 
 ![g2](https://user-images.githubusercontent.com/99143567/172110168-ee08cc9e-8c73-4f72-a0fd-4a256d268f11.gif)
 
 Ten cuidado de no realizar cambios, recuerda que lo usamos con fines de observación solamente.
 
-Con el comando anterior, nos quedamos observando un commit del pasado, pero ¿cómo podemos volver a como esta nuestro proyecto actualmente?
+Con el comando anterior, nos quedamos observando un commit del pasado, pero ¿cómo podemos volver a la versión actual de nuestro proyecto?
 
-Fácil, volvemos a usar git checkout pero hacemos que apunte a la rama master, por defecto nos posicionara en el último commit que hayamos hecho en la rama master:
+Es fácil, volvemos a usar _git checkout_, pero esta vez hacemos que apunte a la rama master, que por defecto nos posicionará en el último commit que hayamos hecho en la rama master:
 
 ```
 git checkout master
@@ -98,13 +99,13 @@ git checkout master
 
 **Cambiar a otra rama**
 
-Para cambiar a otra rama, usamos el comando:
+Para cambiar a otra rama, utilizamos el siguiente comando:
 
 ```
 git checkout <branch name>
 ```
 
-Esto hará que el *HEAD* apunte al último commit de la rama seleccionada.
+Esto hará que el _HEAD_ apunte al último commit de la rama seleccionada.
 
 ![g4](https://user-images.githubusercontent.com/99143567/172110225-9850b9f4-538a-431d-92c3-0ccbe19e915d.gif)
 
@@ -122,27 +123,26 @@ git checkout -b <branch name>
 
 **Crear otra rama en base a otra e ir a ella al instante**
 
-De manera predeterminada *git checkout -b* se basará en la rama que este *HEAD*. Para basarnos en otra rama necesitamos agregar un parámetro adicional, este será la rama en la que queremos basarnos.
+Por defecto, _git checkout -b_ se basará en la rama en la que esté el _HEAD_. Si queremos basarnos en otra rama, necesitamos agregar un parámetro adicional, que será el nombre de la rama en la que queremos basarnos.
 
 ```
-git checkout -b ＜branch name＞ ＜existing-branch＞
+git checkout -b ＜new branch＞ ＜existing-branch＞
 ```
 
 ![g6](https://user-images.githubusercontent.com/99143567/172110262-d58414e2-27f9-4c77-a5c4-2aad0af775c6.gif)
 
 **Subir una rama al repositorio remoto(GitHub)**
 
-Podemos subir nuestra nueva rama al repositorio remoto usando el comando push y la rama que necesitamos:
+Podemos subir nuestra nueva rama al repositorio remoto usando el comando push y especificando la rama que queremos subir:
 
 ```
 git push -u origin ＜branch name＞
 ```
 
-#### Hice este post con estos comandos juntos, porque se usan mucho entre ellos, mas adelante seguiremos incorporando más comando, y viendo como es útil usarlo en conjunto. 🚀
+#### Hice este post con estos comandos juntos porque se utilizan con frecuencia en combinación. En futuras publicaciones, seguiremos incorporando más comandos y explorando cómo se pueden usar de manera efectiva en conjunto. 🚀
 
-*Deseando que te encuentres bien, te saluda Ulises🤵...*
-*Sígueme en mis redes*
+_Deseando que te encuentres bien, te saluda Ulises🤵..._
+_Sígueme en mis redes_
 [GitHub](https://github.com/UlisesOrnelasR)
 [LinkedIn](https://www.linkedin.com/in/ulises-ornelas/)
 [Twitter](https://twitter.com/UlisesOrnelass)
-
