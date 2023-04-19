@@ -1,6 +1,6 @@
 +++
 title = "Git: Comandos (git rebase, git merge)"
-date = "2023-04-18"
+date = "2023-04-19"
 +++
 
 En este post veremos el uso de git rebase, un comando que nos ayuda a mover una rama a otro punto del árbol. Sin embargo, es importante tener en cuenta que este comando reescribe el historial de commits, por lo que debemos tener cuidado al usarlo, especialmente en el repositorio remoto. También veremos las diferencias entre git rebase y git merge...🐤
