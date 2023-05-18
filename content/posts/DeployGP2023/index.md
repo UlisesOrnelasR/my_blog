@@ -12,7 +12,7 @@ date = "2023-05-17"
 
 ## Pasos a seguir
 
-1.- Primeramente ya debemos de tener nuestro repositorio en GitHub
+1.- En primer lugar, debemos tener nuestro repositorio en GitHub.
 
 ![image1](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/ac1afe72-1cef-4ae4-a1cf-f7f77019272e)
 
@@ -24,7 +24,7 @@ Esto nos permitirá modificar el archivo Jekyll el cual GitHub utiliza para sabe
 
 ![image3](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/3d83b463-97bd-421c-bf40-4c941b120a6d)
 
-3.- De este link `https://vitejs.dev/guide/static-deploy.html` fue extraído el contenido que vamos a sustituir en el archivo `jekyll-gh-pages.yml`:
+3.- Del siguiente enlace, `https://vitejs.dev/guide/static-deploy.html`, extraemos el contenido que vamos a sustituir en el archivo `jekyll-gh-pages.yml`:
 
 ```
 # Simple workflow for deploying static content to GitHub Pages
