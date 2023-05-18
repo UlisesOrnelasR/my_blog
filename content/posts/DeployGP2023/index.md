@@ -20,12 +20,11 @@ date = "2023-05-17"
 
 ![imag2](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/7ef9ec8c-94dc-4141-bf90-a78c780bde26)
 
-
-Esto nos permitira modificar el archivo Jekyll el cual GitHub utiliza para saber que hacer con las **actions**.
+Esto nos permitirá modificar el archivo Jekyll el cual GitHub utiliza para saber que hacer con las **actions**.
 
 ![image3](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/3d83b463-97bd-421c-bf40-4c941b120a6d)
 
-3.- De este link `https://vitejs.dev/guide/static-deploy.html` fue extraido el contenido que vamos a sustituir en el archivo `jekyll-gh-pages.yml`:
+3.- De este link `https://vitejs.dev/guide/static-deploy.html` fue extraído el contenido que vamos a sustituir en el archivo `jekyll-gh-pages.yml`:
 
 ```
 # Simple workflow for deploying static content to GitHub Pages
@@ -86,29 +85,27 @@ jobs:
 
 ![image4](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/2c9ea260-9377-45c4-8e69-1021b7e1e82e)
 
-
-5.- En nuestro proyecto abrimos una terminal y ejecutamos el siguiente comando para descargar los ultimos cambios que hicimos en el repositorio remoto:
+5.- En nuestro proyecto abrimos una terminal y ejecutamos el siguiente comando para descargar los últimos cambios que hicimos en el repositorio remoto:
 
 ```
 git pull origin master
 ```
 
-Despues de hacerlo ya deberia existir la carpeta `.github` en el repositorio local.
+Después de hacerlo ya debería existir la carpeta `.github` en el repositorio local.
 
 6.- Tenemos que agregar el **base** en el archivo `vite.config.js` y subimos el cambio al repositorio remoto haciendo un commit.
 
 ![image5](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/cff28df4-d6e5-4d00-86ec-b4a371129a09)
 
-7.- Nos dirijimos a la pestaña de **Actions** y verificamos que no haya ningun problema.
+7.- Nos dirijimos a la pestaña de **Actions** y verificamos que no haya ningún problema.
 
 ![image6](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/c92b2d09-6099-4e96-8092-6f13f70dcf2b)
 
-Si hacemos click en `Visit site` nuestro sitio ya estara publicado.
+Si hacemos click en `Visit site` nuestro sitio ya estará publicado.
 
 ![image7](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/45c44aa9-030e-4e20-8b11-98ed219b55c1)
 
-
-**Nota:** Si tienes alguna variable de entorno en el proyecto agrega un archivo `.env.production` con tu variable de entorno y subelo los cambios a GitHub con un commit.
+**Nota:** Si tienes alguna variable de entorno en el proyecto agrega un archivo `.env.production` con tu variable de entorno y súbelo los cambios a GitHub con un commit.
 
 ![image8](https://github.com/UlisesOrnelasR/my_blog/assets/99143567/8bfe22b2-0142-4a28-9304-04fd59903727)
 
